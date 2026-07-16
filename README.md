@@ -51,14 +51,14 @@ Before that I interned at ECTrons, working on embedded systems and n8n automatio
 ## GitHub
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Sowan3k&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&card_width=450" height="170" alt="stats">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sowan3k&theme=tokyonight&hide_border=true&layout=compact&langs_count=8&card_width=320" height="170" alt="top languages">
+<img src="https://github-readme-stats.shion.dev/api?username=Sowan3k&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&card_width=450" height="170" alt="GitHub stats">
+<img src="https://github-readme-stats.shion.dev/api/top-langs/?username=Sowan3k&theme=tokyonight&hide_border=true&layout=compact&langs_count=8&card_width=320" height="170" alt="Top languages">
 </p>
 
 <p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=Sowan3k&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=6&margin-h=6" alt="trophies">
+<img src="https://streak-stats.demolab.com/?user=Sowan3k&theme=tokyonight&hide_border=true" alt="Streak">
 </p>
 
 <p align="center">
-<img src="https://komarev.com/ghpvc/?username=Sowan3k&style=flat-square&color=7aa2f7" alt="profile views">
+<img src="https://komarev.com/ghpvc/?username=Sowan3k&style=flat-square&color=7aa2f7" alt="Profile views">
 </p>
