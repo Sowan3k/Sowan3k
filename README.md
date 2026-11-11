@@ -3,10 +3,10 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/noor-mohammad-sowan"><img src="https://img.shields.io/badge/LinkedIn-606060?style=for-the-badge" alt="LinkedIn"></a>
-  <a href="mailto:nurmohammadsowan119@gmail.com"><img src="https://img.shields.io/badge/Email-606060?style=for-the-badge" alt="Email"></a>
-  <a href="https://sowan-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolio-606060?style=for-the-badge" alt="Portfolio"></a>
-  <a href="https://www.pexels.com/@noor-mohammad-sowan-944251072"><img src="https://img.shields.io/badge/Pexels-e0e0e0?style=for-the-badge" alt="Pexels"></a>
+  <a href="https://www.linkedin.com/in/noor-mohammad-sowan"><img src="https://img.shields.io/badge/LinkedIn-38e062?style=for-the-badge" alt="LinkedIn"></a>
+  <a href="mailto:nurmohammadsowan119@gmail.com"><img src="https://img.shields.io/badge/Email-38e062?style=for-the-badge" alt="Email"></a>
+  <a href="https://sowan-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolio-38e062?style=for-the-badge" alt="Portfolio"></a>
+  <a href="https://www.pexels.com/@noor-mohammad-sowan-944251072"><img src="https://img.shields.io/badge/Pexels-17171b?style=for-the-badge" alt="Pexels"></a>
 </p>
 
 ## About
@@ -62,37 +62,37 @@ I write the requirements, a short file of rules the build must never break, and 
 
 **Languages**
 
-![Python](https://img.shields.io/badge/Python-e0e0e0?style=for-the-badge&logo=python&logoColor=333333) ![TypeScript](https://img.shields.io/badge/TypeScript-e0e0e0?style=for-the-badge&logo=typescript&logoColor=333333) ![JavaScript](https://img.shields.io/badge/JavaScript-e0e0e0?style=for-the-badge&logo=javascript&logoColor=333333) ![Kotlin](https://img.shields.io/badge/Kotlin-e0e0e0?style=for-the-badge&logo=kotlin&logoColor=333333) ![SQL](https://img.shields.io/badge/SQL-e0e0e0?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-17171b?style=for-the-badge&logo=python&logoColor=38e062) ![TypeScript](https://img.shields.io/badge/TypeScript-17171b?style=for-the-badge&logo=typescript&logoColor=38e062) ![JavaScript](https://img.shields.io/badge/JavaScript-17171b?style=for-the-badge&logo=javascript&logoColor=38e062) ![Kotlin](https://img.shields.io/badge/Kotlin-17171b?style=for-the-badge&logo=kotlin&logoColor=38e062) ![SQL](https://img.shields.io/badge/SQL-17171b?style=for-the-badge)
 
 **AI and automation**
 
-![LangChain](https://img.shields.io/badge/LangChain-e0e0e0?style=for-the-badge&logo=langchain&logoColor=333333) ![Gemini API](https://img.shields.io/badge/Gemini_API-e0e0e0?style=for-the-badge&logo=googlegemini&logoColor=333333) ![Ollama](https://img.shields.io/badge/Ollama-e0e0e0?style=for-the-badge&logo=ollama&logoColor=333333) ![n8n](https://img.shields.io/badge/n8n-e0e0e0?style=for-the-badge&logo=n8n&logoColor=333333) ![OpenCV](https://img.shields.io/badge/OpenCV-e0e0e0?style=for-the-badge&logo=opencv&logoColor=333333) ![RAG with pgvector](https://img.shields.io/badge/RAG_with_pgvector-e0e0e0?style=for-the-badge) ![Tesseract OCR](https://img.shields.io/badge/Tesseract_OCR-e0e0e0?style=for-the-badge) ![OpenAI API](https://img.shields.io/badge/OpenAI_API-e0e0e0?style=for-the-badge)
+![LangChain](https://img.shields.io/badge/LangChain-17171b?style=for-the-badge&logo=langchain&logoColor=38e062) ![Gemini API](https://img.shields.io/badge/Gemini_API-17171b?style=for-the-badge&logo=googlegemini&logoColor=38e062) ![Ollama](https://img.shields.io/badge/Ollama-17171b?style=for-the-badge&logo=ollama&logoColor=38e062) ![n8n](https://img.shields.io/badge/n8n-17171b?style=for-the-badge&logo=n8n&logoColor=38e062) ![OpenCV](https://img.shields.io/badge/OpenCV-17171b?style=for-the-badge&logo=opencv&logoColor=38e062) ![RAG with pgvector](https://img.shields.io/badge/RAG_with_pgvector-17171b?style=for-the-badge) ![Tesseract OCR](https://img.shields.io/badge/Tesseract_OCR-17171b?style=for-the-badge) ![OpenAI API](https://img.shields.io/badge/OpenAI_API-17171b?style=for-the-badge)
 
 **Backend and data**
 
-![FastAPI](https://img.shields.io/badge/FastAPI-e0e0e0?style=for-the-badge&logo=fastapi&logoColor=333333) ![Pydantic](https://img.shields.io/badge/Pydantic-e0e0e0?style=for-the-badge&logo=pydantic&logoColor=333333) ![Node.js](https://img.shields.io/badge/Node.js-e0e0e0?style=for-the-badge&logo=nodedotjs&logoColor=333333) ![Express](https://img.shields.io/badge/Express-e0e0e0?style=for-the-badge&logo=express&logoColor=333333) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-e0e0e0?style=for-the-badge&logo=postgresql&logoColor=333333) ![Supabase](https://img.shields.io/badge/Supabase-e0e0e0?style=for-the-badge&logo=supabase&logoColor=333333) ![Redis](https://img.shields.io/badge/Redis-e0e0e0?style=for-the-badge&logo=redis&logoColor=333333) ![SQLite](https://img.shields.io/badge/SQLite-e0e0e0?style=for-the-badge&logo=sqlite&logoColor=333333) ![Prisma](https://img.shields.io/badge/Prisma-e0e0e0?style=for-the-badge&logo=prisma&logoColor=333333) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-e0e0e0?style=for-the-badge&logo=sqlalchemy&logoColor=333333)
+![FastAPI](https://img.shields.io/badge/FastAPI-17171b?style=for-the-badge&logo=fastapi&logoColor=38e062) ![Pydantic](https://img.shields.io/badge/Pydantic-17171b?style=for-the-badge&logo=pydantic&logoColor=38e062) ![Node.js](https://img.shields.io/badge/Node.js-17171b?style=for-the-badge&logo=nodedotjs&logoColor=38e062) ![Express](https://img.shields.io/badge/Express-17171b?style=for-the-badge&logo=express&logoColor=38e062) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17171b?style=for-the-badge&logo=postgresql&logoColor=38e062) ![Supabase](https://img.shields.io/badge/Supabase-17171b?style=for-the-badge&logo=supabase&logoColor=38e062) ![Redis](https://img.shields.io/badge/Redis-17171b?style=for-the-badge&logo=redis&logoColor=38e062) ![SQLite](https://img.shields.io/badge/SQLite-17171b?style=for-the-badge&logo=sqlite&logoColor=38e062) ![Prisma](https://img.shields.io/badge/Prisma-17171b?style=for-the-badge&logo=prisma&logoColor=38e062) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-17171b?style=for-the-badge&logo=sqlalchemy&logoColor=38e062)
 
 **Frontend and mobile**
 
-![Next.js](https://img.shields.io/badge/Next.js-e0e0e0?style=for-the-badge&logo=nextdotjs&logoColor=333333) ![React](https://img.shields.io/badge/React-e0e0e0?style=for-the-badge&logo=react&logoColor=333333) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-e0e0e0?style=for-the-badge&logo=tailwindcss&logoColor=333333) ![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-e0e0e0?style=for-the-badge&logo=shadcnui&logoColor=333333) ![Android](https://img.shields.io/badge/Android-e0e0e0?style=for-the-badge&logo=android&logoColor=333333)
+![Next.js](https://img.shields.io/badge/Next.js-17171b?style=for-the-badge&logo=nextdotjs&logoColor=38e062) ![React](https://img.shields.io/badge/React-17171b?style=for-the-badge&logo=react&logoColor=38e062) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-17171b?style=for-the-badge&logo=tailwindcss&logoColor=38e062) ![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-17171b?style=for-the-badge&logo=shadcnui&logoColor=38e062) ![Android](https://img.shields.io/badge/Android-17171b?style=for-the-badge&logo=android&logoColor=38e062)
 
 **Testing and delivery**
 
-![pytest](https://img.shields.io/badge/pytest-e0e0e0?style=for-the-badge&logo=pytest&logoColor=333333) ![Vitest](https://img.shields.io/badge/Vitest-e0e0e0?style=for-the-badge&logo=vitest&logoColor=333333) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-e0e0e0?style=for-the-badge&logo=githubactions&logoColor=333333) ![Docker](https://img.shields.io/badge/Docker-e0e0e0?style=for-the-badge&logo=docker&logoColor=333333) ![Vercel](https://img.shields.io/badge/Vercel-e0e0e0?style=for-the-badge&logo=vercel&logoColor=333333) ![Render](https://img.shields.io/badge/Render-e0e0e0?style=for-the-badge&logo=render&logoColor=333333) ![Sentry](https://img.shields.io/badge/Sentry-e0e0e0?style=for-the-badge&logo=sentry&logoColor=333333) ![Postman](https://img.shields.io/badge/Postman-e0e0e0?style=for-the-badge&logo=postman&logoColor=333333) ![Playwright](https://img.shields.io/badge/Playwright-e0e0e0?style=for-the-badge)
+![pytest](https://img.shields.io/badge/pytest-17171b?style=for-the-badge&logo=pytest&logoColor=38e062) ![Vitest](https://img.shields.io/badge/Vitest-17171b?style=for-the-badge&logo=vitest&logoColor=38e062) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-17171b?style=for-the-badge&logo=githubactions&logoColor=38e062) ![Docker](https://img.shields.io/badge/Docker-17171b?style=for-the-badge&logo=docker&logoColor=38e062) ![Vercel](https://img.shields.io/badge/Vercel-17171b?style=for-the-badge&logo=vercel&logoColor=38e062) ![Render](https://img.shields.io/badge/Render-17171b?style=for-the-badge&logo=render&logoColor=38e062) ![Sentry](https://img.shields.io/badge/Sentry-17171b?style=for-the-badge&logo=sentry&logoColor=38e062) ![Postman](https://img.shields.io/badge/Postman-17171b?style=for-the-badge&logo=postman&logoColor=38e062) ![Playwright](https://img.shields.io/badge/Playwright-17171b?style=for-the-badge)
 
 **Also**
 
-![Figma](https://img.shields.io/badge/Figma-e0e0e0?style=for-the-badge&logo=figma&logoColor=333333) ![Linux CLI](https://img.shields.io/badge/Linux_CLI-e0e0e0?style=for-the-badge&logo=linux&logoColor=333333) ![Raspberry Pi 5](https://img.shields.io/badge/Raspberry_Pi_5-e0e0e0?style=for-the-badge&logo=raspberrypi&logoColor=333333)
+![Figma](https://img.shields.io/badge/Figma-17171b?style=for-the-badge&logo=figma&logoColor=38e062) ![Linux CLI](https://img.shields.io/badge/Linux_CLI-17171b?style=for-the-badge&logo=linux&logoColor=38e062) ![Raspberry Pi 5](https://img.shields.io/badge/Raspberry_Pi_5-17171b?style=for-the-badge&logo=raspberrypi&logoColor=38e062)
 
 ## GitHub
 
 <p align="center">
-  <img src="https://github-readme-stats.shion.dev/api?username=Sowan3k&show_icons=true&include_all_commits=true&count_private=true&hide_rank=true&hide=issues,contribs&card_width=330&bg_color=f0f0f0&border_color=d0d0d0&border_radius=6&title_color=333333&text_color=606060&icon_color=606060&ring_color=606060" height="160" alt="GitHub stats">
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=Sowan3k&layout=compact&langs_count=5&card_width=320&bg_color=f0f0f0&border_color=d0d0d0&border_radius=6&title_color=333333&text_color=606060" height="160" alt="Top languages">
+  <img src="https://github-readme-stats.shion.dev/api?username=Sowan3k&show_icons=true&include_all_commits=true&count_private=true&hide_rank=true&hide=issues,contribs&card_width=330&bg_color=09090b&border_color=27272a&border_radius=15&title_color=fafafa&text_color=a1a1aa&icon_color=38e062&ring_color=38e062" height="160" alt="GitHub stats">
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=Sowan3k&layout=compact&langs_count=5&card_width=320&bg_color=09090b&border_color=27272a&border_radius=15&title_color=fafafa&text_color=a1a1aa" height="160" alt="Top languages">
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Sowan3k&background=f0f0f0&border=d0d0d0&border_radius=6&stroke=d0d0d0&ring=606060&fire=606060&currStreakNum=333333&sideNums=333333&currStreakLabel=606060&sideLabels=666666&dates=666666" alt="Contribution streak">
+  <img src="https://streak-stats.demolab.com/?user=Sowan3k&background=09090b&border=27272a&border_radius=15&stroke=27272a&ring=38e062&fire=38e062&currStreakNum=fafafa&sideNums=fafafa&currStreakLabel=38e062&sideLabels=a1a1aa&dates=a1a1aa" alt="Contribution streak">
 </p>
 
 <p align="center">
@@ -103,5 +103,5 @@ I write the requirements, a short file of rules the build must never break, and 
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Sowan3k&style=flat-square&color=606060&label=profile+views" alt="Profile views">
+  <img src="https://komarev.com/ghpvc/?username=Sowan3k&style=flat-square&color=38e062&label=profile+views" alt="Profile views">
 </p>
