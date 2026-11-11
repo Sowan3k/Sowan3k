@@ -5,21 +5,20 @@
   <defs>
     <clipPath id="track"><rect x="90" y="88" width="700" height="8"/></clipPath>
     <linearGradient id="pulse" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#f2b34a" stop-opacity="0"/>
-      <stop offset="0.8" stop-color="#f2b34a"/>
-      <stop offset="1" stop-color="#fbe3b3"/>
+      <stop offset="0" stop-color="#606060" stop-opacity="0"/>
+      <stop offset="0.8" stop-color="#606060"/>
+      <stop offset="1" stop-color="#333333"/>
     </linearGradient>
   </defs>
 
   <style>
-    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; }
-    .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
-    .label { font-size: 11.5px; letter-spacing: 2.2px; fill: #f2b34a; }
-    .hint { font-size: 11px; fill: #56627a; text-anchor: end; }
-    .step { font-size: 13.5px; font-weight: 600; fill: #e8edf4; text-anchor: middle; }
-    .sub { font-size: 10.5px; fill: #8a96a8; text-anchor: middle; }
-    .num { font-size: 11px; fill: #8a96a8; text-anchor: middle; animation: num 7s linear infinite backwards; }
-    .node { fill: #0f1520; stroke: #2b3549; stroke-width: 1.2; animation: node 7s linear infinite backwards; }
+    text { font-family: 'Times New Roman', Times, 'Liberation Serif', 'Nimbus Roman', serif; }
+    .label { font-size: 12.5px; font-weight: 700; letter-spacing: 2.6px; fill: #606060; }
+    .hint { font-size: 14px; font-style: italic; fill: #666666; text-anchor: end; }
+    .step { font-size: 16.5px; font-weight: 700; fill: #333333; text-anchor: middle; }
+    .sub { font-size: 13px; font-style: italic; fill: #666666; text-anchor: middle; }
+    .num { font-size: 13px; font-weight: 700; fill: #666666; text-anchor: middle; animation: num 7s linear infinite backwards; }
+    .node { fill: #f5f5f5; stroke: #c0c0c0; stroke-width: 1.2; animation: node 7s linear infinite backwards; }
     .d1 { animation-delay: 0s; } .d2 { animation-delay: 1.08s; } .d3 { animation-delay: 2.16s; }
     .d4 { animation-delay: 3.25s; } .d5 { animation-delay: 4.33s; } .d6 { animation-delay: 5.41s; }
     .runner { animation: run 7s linear infinite; }
@@ -30,15 +29,15 @@
       86%, 100% { transform: translateX(770px); opacity: 0; }
     }
     @keyframes node {
-      0% { stroke: #2b3549; fill: #0f1520; }
-      2% { stroke: #f2b34a; fill: #2a2110; }
-      16% { stroke: #f2b34a; fill: #2a2110; }
-      30%, 100% { stroke: #2b3549; fill: #0f1520; }
+      0% { stroke: #c0c0c0; fill: #f5f5f5; }
+      2% { stroke: #333333; fill: #e0e0e0; }
+      16% { stroke: #333333; fill: #e0e0e0; }
+      30%, 100% { stroke: #c0c0c0; fill: #f5f5f5; }
     }
     @keyframes num {
-      0% { fill: #8a96a8; }
-      2%, 16% { fill: #f7c873; }
-      30%, 100% { fill: #8a96a8; }
+      0% { fill: #666666; }
+      2%, 16% { fill: #333333; }
+      30%, 100% { fill: #666666; }
     }
     @media (prefers-reduced-motion: reduce) {
       .node, .num, .runner { animation: none; }
@@ -46,13 +45,13 @@
     }
   </style>
 
-  <rect x="1" y="1" width="878" height="188" rx="16" fill="#0b0f17" stroke="#212a3a"/>
+  <rect x="1" y="1" width="878" height="188" rx="6" fill="#f0f0f0" stroke="#d0d0d0"/>
 
-  <text class="mono label" x="40" y="44">HOW I BUILD</text>
-  <text class="mono hint" x="840" y="44">spec first, then phase by phase</text>
+  <text class="label" x="40" y="44">HOW I BUILD</text>
+  <text class="hint" x="840" y="44">spec first, then phase by phase</text>
 
   <!-- track -->
-  <path d="M90 92 H790" stroke="#212a3a" stroke-width="2"/>
+  <path d="M90 92 H790" stroke="#d0d0d0" stroke-width="2"/>
   <g clip-path="url(#track)">
     <rect class="runner" x="20" y="91" width="70" height="2" fill="url(#pulse)"/>
   </g>
@@ -65,24 +64,24 @@
   <circle class="node d5" cx="650" cy="92" r="17"/>
   <circle class="node d6" cx="790" cy="92" r="17"/>
 
-  <text class="mono num d1" x="90" y="96">01</text>
-  <text class="mono num d2" x="230" y="96">02</text>
-  <text class="mono num d3" x="370" y="96">03</text>
-  <text class="mono num d4" x="510" y="96">04</text>
-  <text class="mono num d5" x="650" y="96">05</text>
-  <text class="mono num d6" x="790" y="96">06</text>
+  <text class="num d1" x="90" y="96.5">01</text>
+  <text class="num d2" x="230" y="96.5">02</text>
+  <text class="num d3" x="370" y="96.5">03</text>
+  <text class="num d4" x="510" y="96.5">04</text>
+  <text class="num d5" x="650" y="96.5">05</text>
+  <text class="num d6" x="790" y="96.5">06</text>
 
-  <text class="sans step" x="90" y="138">Requirements</text>
-  <text class="sans step" x="230" y="138">Rules</text>
-  <text class="sans step" x="370" y="138">Phases</text>
-  <text class="sans step" x="510" y="138">Build</text>
-  <text class="sans step" x="650" y="138">Log</text>
-  <text class="sans step" x="790" y="138">Test, ship</text>
+  <text class="step" x="90" y="139">Requirements</text>
+  <text class="step" x="230" y="139">Rules</text>
+  <text class="step" x="370" y="139">Phases</text>
+  <text class="step" x="510" y="139">Build</text>
+  <text class="step" x="650" y="139">Log</text>
+  <text class="step" x="790" y="139">Test, ship</text>
 
-  <text class="mono sub" x="90" y="157">what it must do</text>
-  <text class="mono sub" x="230" y="157">CLAUDE.md</text>
-  <text class="mono sub" x="370" y="157">PHASES.md</text>
-  <text class="mono sub" x="510" y="157">Claude Code</text>
-  <text class="mono sub" x="650" y="157">STATUS · DECISIONS</text>
-  <text class="mono sub" x="790" y="157">CI, then deploy</text>
+  <text class="sub" x="90" y="159">what it must do</text>
+  <text class="sub" x="230" y="159">CLAUDE.md</text>
+  <text class="sub" x="370" y="159">PHASES.md</text>
+  <text class="sub" x="510" y="159">Claude Code</text>
+  <text class="sub" x="650" y="159">STATUS · DECISIONS</text>
+  <text class="sub" x="790" y="159">CI, then deploy</text>
 </svg>
