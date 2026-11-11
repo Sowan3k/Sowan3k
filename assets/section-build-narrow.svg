@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 52" width="440" height="52" role="img" aria-labelledby="t d">
+<title id="t">How I build</title>
+<desc id="d">Section 02: How I build</desc>
+<defs>
+<clipPath id="card"><rect x="1" y="1" width="438" height="50" rx="15"/></clipPath>
+<radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#38e062" stop-opacity="0.10"/><stop offset="1" stop-color="#38e062" stop-opacity="0"/></radialGradient>
+<linearGradient id="pulse" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38e062" stop-opacity="0"/><stop offset="0.8" stop-color="#38e062"/><stop offset="1" stop-color="#b9f6ca"/></linearGradient>
+</defs>
+<style>
+text { font-family: 'Times New Roman', Times, 'Liberation Serif', 'Nimbus Roman', serif; }
+.pulse { animation: pulse 2s ease-in-out infinite; }
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .3; } }
+
+.run { animation: run 3.96s steps(15, end) infinite; }
+@keyframes run { 0% { transform: translateX(0); opacity: 0; } 8% { opacity: 1; } 44% { transform: translateX(180px); opacity: 1; } 48%, 100% { transform: translateX(180px); opacity: 0; } }
+
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } .motion { display: none; } }
+</style>
+<rect x="1" y="1" width="438" height="50" rx="15" fill="#09090b"/>
+
+<rect x="1" y="1" width="438" height="50" rx="15" fill="none" stroke="#27272a"/>
+<rect x="16" y="11" width="5" height="5" rx="1.2" fill="#1a1a1f"/>
+<rect x="22" y="11" width="5" height="5" rx="1.2" fill="#1a1a1f"/>
+<rect x="28" y="11" width="5" height="5" rx="1.2" fill="#1a1a1f"/>
+<rect x="34" y="11" width="5" height="5" rx="1.2" fill="#1a1a1f"/>
+<rect x="40" y="11" width="5" height="5" rx="1.2" fill="#38e062"/>
+<rect x="16" y="17" width="5" height="5" rx="1.2" fill="#1a1a1f"/>
+<rect x="22" y="17" width="5" height="5" rx="1.2" fill="#1a1a1f"/>
+<rect x="28" y="17" width="5" height="5" rx="1.2" fill="#1a1a1f"/>
+<rect x="34" y="17" width="5" height="5" rx="1.2" fill="#38e062"/>
+<rect x="40" y="17" width="5" height="5" rx="1.2" fill="#38e062"/>
+<rect x="16" y="23" width="5" height="5" rx="1.2" fill="#1a1a1f"/>
+<rect x="22" y="23" width="5" height="5" rx="1.2" fill="#1a1a1f"/>
+<rect x="28" y="23" width="5" height="5" rx="1.2" fill="#38e062"/>
+<rect x="34" y="23" width="5" height="5" rx="1.2" fill="#38e062"/>
+<rect x="40" y="23" width="5" height="5" rx="1.2" fill="#38e062"/>
+<rect x="16" y="29" width="5" height="5" rx="1.2" fill="#1a1a1f"/>
+<rect x="22" y="29" width="5" height="5" rx="1.2" fill="#38e062"/>
+<rect x="28" y="29" width="5" height="5" rx="1.2" fill="#38e062"/>
+<rect x="34" y="29" width="5" height="5" rx="1.2" fill="#38e062"/>
+<rect x="40" y="29" width="5" height="5" rx="1.2" fill="#38e062"/>
+<rect x="16" y="35" width="5" height="5" rx="1.2" fill="#38e062"/>
+<rect x="22" y="35" width="5" height="5" rx="1.2" fill="#38e062"/>
+<rect x="28" y="35" width="5" height="5" rx="1.2" fill="#38e062"/>
+<rect x="34" y="35" width="5" height="5" rx="1.2" fill="#38e062"/>
+<rect x="40" y="35" width="5" height="5" rx="1.2" fill="#38e062"/>
+<text x="58" y="31" font-size="15" fill="#38e062" font-style="italic" textLength="15" lengthAdjust="spacingAndGlyphs">02</text>
+<text x="84" y="34" font-size="22" fill="#fafafa" font-weight="700" textLength="112.49" lengthAdjust="spacingAndGlyphs">How I build</text>
+<rect x="222.49" y="22.5" width="7" height="7" rx="1.8" fill="#006d32" style="opacity:0.13"/>
+<rect x="234.49" y="22.5" width="7" height="7" rx="1.8" fill="#006d32" style="opacity:0.15"/>
+<rect x="246.49" y="22.5" width="7" height="7" rx="1.8" fill="#006d32" style="opacity:0.18"/>
+<rect x="258.49" y="22.5" width="7" height="7" rx="1.8" fill="#006d32" style="opacity:0.22"/>
+<rect x="270.49" y="22.5" width="7" height="7" rx="1.8" fill="#006d32" style="opacity:0.26"/>
+<rect x="282.49" y="22.5" width="7" height="7" rx="1.8" fill="#006d32" style="opacity:0.30"/>
+<rect x="294.49" y="22.5" width="7" height="7" rx="1.8" fill="#006d32" style="opacity:0.35"/>
+<rect x="306.49" y="22.5" width="7" height="7" rx="1.8" fill="#006d32" style="opacity:0.41"/>
+<rect x="318.49" y="22.5" width="7" height="7" rx="1.8" fill="#006d32" style="opacity:0.47"/>
+<rect x="330.49" y="22.5" width="7" height="7" rx="1.8" fill="#006d32" style="opacity:0.53"/>
+<rect x="342.49" y="22.5" width="7" height="7" rx="1.8" fill="#006d32" style="opacity:0.60"/>
+<rect x="354.49" y="22.5" width="7" height="7" rx="1.8" fill="#006d32" style="opacity:0.68"/>
+<rect x="366.49" y="22.5" width="7" height="7" rx="1.8" fill="#006d32" style="opacity:0.75"/>
+<rect x="378.49" y="22.5" width="7" height="7" rx="1.8" fill="#006d32" style="opacity:0.83"/>
+<rect x="390.49" y="22.5" width="7" height="7" rx="1.8" fill="#006d32" style="opacity:0.91"/>
+<rect x="402.49" y="22.5" width="7" height="7" rx="1.8" fill="#006d32" style="opacity:1.00"/>
+<rect x="222.49" y="22.5" width="7" height="7" rx="1.8" fill="#b9f6ca" class="run motion"/>
+</svg>

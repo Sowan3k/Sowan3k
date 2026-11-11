@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 424" width="880" height="424" role="img" aria-labelledby="t d">
+<title id="t">Noor Mohammad Sowan</title>
+<desc id="d">Software engineer in Dhaka, open to AI engineering roles. I build AI automation and the full-stack systems around it. A contribution graph whose squares spell SOWAN.</desc>
+<defs>
+<clipPath id="card"><rect x="1" y="1" width="878" height="422" rx="15"/></clipPath>
+<radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#38e062" stop-opacity="0.10"/><stop offset="1" stop-color="#38e062" stop-opacity="0"/></radialGradient>
+<linearGradient id="pulse" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38e062" stop-opacity="0"/><stop offset="0.8" stop-color="#38e062"/><stop offset="1" stop-color="#b9f6ca"/></linearGradient>
+<pattern id="grid" x="70" y="180" width="19" height="19" patternUnits="userSpaceOnUse"><rect width="15" height="15" rx="3.75" fill="#151519"/></pattern></defs>
+<style>
+text { font-family: 'Times New Roman', Times, 'Liberation Serif', 'Nimbus Roman', serif; }
+.pulse { animation: pulse 2s ease-in-out infinite; }
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .3; } }
+
+.n { transform-box: fill-box; transform-origin: center; animation: pop .55s cubic-bezier(.2,1.5,.4,1) backwards, wave4 7s linear infinite; }
+.l4 { fill: #38e062; }
+.l3 { fill: #26a641; animation-name: pop, wave3; }
+.l2 { fill: #006d32; animation-name: pop, wave2; }
+@keyframes pop { 0% { opacity: 0; transform: scale(.2); } 60% { opacity: 1; transform: scale(1.18); fill: #b9f6ca; } 100% { opacity: 1; transform: scale(1); } }
+@keyframes wave4 { 0%, 9%, 100% { fill: #38e062; } 4% { fill: #b9f6ca; } }
+@keyframes wave3 { 0%, 9%, 100% { fill: #26a641; } 4% { fill: #7ee2a0; } }
+@keyframes wave2 { 0%, 9%, 100% { fill: #006d32; } 4% { fill: #26a641; } }
+.noise { animation: tw 6s ease-in-out infinite; }
+@keyframes tw { 0%, 100% { opacity: 1; } 50% { opacity: .3; } }
+.sweep { animation: sw 2.9s .45s linear both; }
+@keyframes sw { 0% { transform: translateX(0); opacity: 0; } 6%, 94% { opacity: .85; } 100% { transform: translateX(631px); opacity: 0; } }
+.rot { opacity: 0; animation: rot 16s linear infinite backwards; }
+.r1 { opacity: 1; }
+@keyframes rot { 0% { opacity: 0; transform: translateY(5px); } 3%, 22% { opacity: 1; transform: translateY(0); } 25%, 100% { opacity: 0; transform: translateY(-5px); } }
+
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } .motion { display: none; } }
+</style>
+<rect x="1" y="1" width="878" height="422" rx="15" fill="#09090b"/>
+<g clip-path="url(#card)"><circle cx="820" cy="0" r="300" fill="url(#glow)"/></g>
+<rect x="1" y="1" width="878" height="422" rx="15" fill="none" stroke="#27272a"/>
+<text x="40" y="50" font-size="12.5" fill="#38e062" font-weight="700" letter-spacing="2.6" textLength="326.12" lengthAdjust="spacingAndGlyphs">SOFTWARE ENGINEER · DHAKA, UTC+6</text>
+<rect x="570.58" y="31" width="269.42" height="26" rx="13" fill="#0f2a17" stroke="#38e062" stroke-opacity="0.35"/>
+<circle class="pulse" cx="585.58" cy="44" r="3.2" fill="#38e062"/>
+<text x="598.58" y="48.2" font-size="11" fill="#38e062" font-weight="700" letter-spacing="1.5" textLength="227.42" lengthAdjust="spacingAndGlyphs">OPEN TO AI ENGINEERING ROLES</text>
+<text x="38" y="106" font-size="46" fill="#fafafa" font-weight="700" textLength="350.53" lengthAdjust="spacingAndGlyphs">Noor Mohammad</text>
+<text x="401.53" y="106" font-size="46" fill="#38e062" font-weight="700" font-style="italic" textLength="127.85" lengthAdjust="spacingAndGlyphs">Sowan</text>
+<text x="40" y="138" font-size="18.5" fill="#d4d4d8" textLength="431.58" lengthAdjust="spacingAndGlyphs">I build AI automation and the full-stack systems around it.</text>
+<text x="70" y="170" font-size="12" fill="#71717a" textLength="19.99" lengthAdjust="spacingAndGlyphs">Mar</text>
+<text x="165" y="170" font-size="12" fill="#71717a" textLength="18.66" lengthAdjust="spacingAndGlyphs">Apr</text>
+<text x="260" y="170" font-size="12" fill="#71717a" textLength="22" lengthAdjust="spacingAndGlyphs">May</text>
+<text x="336" y="170" font-size="12" fill="#71717a" textLength="16.67" lengthAdjust="spacingAndGlyphs">Jun</text>
+<text x="431" y="170" font-size="12" fill="#71717a" textLength="14" lengthAdjust="spacingAndGlyphs">Jul</text>
+<text x="526" y="170" font-size="12" fill="#71717a" textLength="20.67" lengthAdjust="spacingAndGlyphs">Aug</text>
+<text x="602" y="170" font-size="12" fill="#71717a" textLength="18" lengthAdjust="spacingAndGlyphs">Sep</text>
+<text x="697" y="170" font-size="12" fill="#71717a" textLength="17.33" lengthAdjust="spacingAndGlyphs">Oct</text>
+<text x="792" y="170" font-size="12" fill="#71717a" textLength="20.67" lengthAdjust="spacingAndGlyphs">Nov</text>
+<text x="40" y="211" font-size="12" fill="#71717a" textLength="22.67" lengthAdjust="spacingAndGlyphs">Mon</text>
+<text x="40" y="249" font-size="12" fill="#71717a" textLength="21.69" lengthAdjust="spacingAndGlyphs">Wed</text>
+<text x="40" y="287" font-size="12" fill="#71717a" textLength="14" lengthAdjust="spacingAndGlyphs">Fri</text>
+<rect x="70" y="180" width="779" height="133" fill="url(#grid)"/>
+<rect x="89" y="275" width="15" height="15" rx="3.75" fill="#0e4429" class="noise" style="animation-delay:0.0s"/>
+<rect x="811" y="275" width="15" height="15" rx="3.75" fill="#006d32" class="noise" style="animation-delay:0.9s"/>
+<rect x="811" y="294" width="15" height="15" rx="3.75" fill="#0e4429" class="noise" style="animation-delay:1.8s"/>
+<rect x="811" y="256" width="15" height="15" rx="3.75" fill="#0e4429" class="noise" style="animation-delay:2.7s"/>
+<rect x="70" y="237" width="15" height="15" rx="3.75" fill="#0e4429" class="noise" style="animation-delay:3.6s"/>
+<rect x="70" y="199" width="15" height="15" rx="3.75" fill="#006d32" class="noise" style="animation-delay:4.5s"/>
+<rect x="70" y="256" width="15" height="15" rx="3.75" fill="#0e4429" class="noise" style="animation-delay:5.4s"/>
+<rect x="70" y="294" width="15" height="15" rx="3.75" fill="#0e4429" class="noise" style="animation-delay:0.3s"/>
+<rect x="165" y="180" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:0.58s,5.07s"/>
+<rect x="184" y="180" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:0.66s,5.14s"/>
+<rect x="203" y="180" width="15" height="15" rx="3.75" class="n l3" style="animation-delay:0.74s,5.21s"/>
+<rect x="146" y="199" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:0.53s,5.07s"/>
+<rect x="222" y="199" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:0.85s,5.35s"/>
+<rect x="146" y="218" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:0.55s,5.14s"/>
+<rect x="165" y="237" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:0.66s,5.28s"/>
+<rect x="184" y="237" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:0.74s,5.35s"/>
+<rect x="203" y="237" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:0.81s,5.42s"/>
+<rect x="222" y="256" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:0.92s,5.56s"/>
+<rect x="146" y="275" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:0.62s,5.35s"/>
+<rect x="222" y="275" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:0.95s,5.63s"/>
+<rect x="165" y="294" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:0.73s,5.49s"/>
+<rect x="184" y="294" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:0.81s,5.56s"/>
+<rect x="203" y="294" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:0.89s,5.63s"/>
+<rect x="298" y="180" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:1.14s,5.56s"/>
+<rect x="317" y="180" width="15" height="15" rx="3.75" class="n l3" style="animation-delay:1.22s,5.63s"/>
+<rect x="336" y="180" width="15" height="15" rx="3.75" class="n l3" style="animation-delay:1.30s,5.70s"/>
+<rect x="279" y="199" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:1.08s,5.56s"/>
+<rect x="355" y="199" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:1.40s,5.84s"/>
+<rect x="279" y="218" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:1.11s,5.63s"/>
+<rect x="355" y="218" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:1.43s,5.91s"/>
+<rect x="279" y="237" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:1.14s,5.70s"/>
+<rect x="355" y="237" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:1.45s,5.98s"/>
+<rect x="279" y="256" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:1.16s,5.77s"/>
+<rect x="355" y="256" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:1.48s,6.05s"/>
+<rect x="279" y="275" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:1.19s,5.84s"/>
+<rect x="355" y="275" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:1.50s,6.12s"/>
+<rect x="298" y="294" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:1.29s,5.98s"/>
+<rect x="317" y="294" width="15" height="15" rx="3.75" class="n l3" style="animation-delay:1.37s,6.05s"/>
+<rect x="336" y="294" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:1.45s,6.12s"/>
+<rect x="412" y="180" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:1.62s,5.98s"/>
+<rect x="488" y="180" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:1.94s,6.26s"/>
+<rect x="412" y="199" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:1.65s,6.05s"/>
+<rect x="488" y="199" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:1.96s,6.33s"/>
+<rect x="412" y="218" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:1.67s,6.12s"/>
+<rect x="488" y="218" width="15" height="15" rx="3.75" class="n l3" style="animation-delay:1.99s,6.40s"/>
+<rect x="412" y="237" width="15" height="15" rx="3.75" class="n l3" style="animation-delay:1.70s,6.19s"/>
+<rect x="450" y="237" width="15" height="15" rx="3.75" class="n l3" style="animation-delay:1.85s,6.33s"/>
+<rect x="488" y="237" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:2.02s,6.47s"/>
+<rect x="412" y="256" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:1.72s,6.26s"/>
+<rect x="450" y="256" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:1.88s,6.40s"/>
+<rect x="488" y="256" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:2.04s,6.54s"/>
+<rect x="412" y="275" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:1.75s,6.33s"/>
+<rect x="450" y="275" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:1.91s,6.47s"/>
+<rect x="488" y="275" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:2.06s,6.61s"/>
+<rect x="431" y="294" width="15" height="15" rx="3.75" class="n l3" style="animation-delay:1.85s,6.47s"/>
+<rect x="469" y="294" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:2.01s,6.61s"/>
+<rect x="564" y="180" width="15" height="15" rx="3.75" class="n l3" style="animation-delay:2.26s,6.54s"/>
+<rect x="583" y="180" width="15" height="15" rx="3.75" class="n l3" style="animation-delay:2.34s,6.61s"/>
+<rect x="602" y="180" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:2.42s,6.68s"/>
+<rect x="545" y="199" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:2.20s,6.54s"/>
+<rect x="621" y="199" width="15" height="15" rx="3.75" class="n l3" style="animation-delay:2.52s,6.82s"/>
+<rect x="545" y="218" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:2.23s,6.61s"/>
+<rect x="621" y="218" width="15" height="15" rx="3.75" class="n l3" style="animation-delay:2.55s,6.89s"/>
+<rect x="545" y="237" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:2.25s,6.68s"/>
+<rect x="564" y="237" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:2.33s,6.75s"/>
+<rect x="583" y="237" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:2.42s,6.82s"/>
+<rect x="602" y="237" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:2.50s,6.89s"/>
+<rect x="621" y="237" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:2.58s,6.96s"/>
+<rect x="545" y="256" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:2.28s,6.75s"/>
+<rect x="621" y="256" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:2.60s,7.03s"/>
+<rect x="545" y="275" width="15" height="15" rx="3.75" class="n l3" style="animation-delay:2.30s,6.82s"/>
+<rect x="621" y="275" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:2.62s,7.10s"/>
+<rect x="545" y="294" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:2.33s,6.89s"/>
+<rect x="621" y="294" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:2.65s,7.17s"/>
+<rect x="678" y="180" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:2.74s,6.96s"/>
+<rect x="754" y="180" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:3.06s,7.24s"/>
+<rect x="678" y="199" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:2.77s,7.03s"/>
+<rect x="697" y="199" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:2.84s,7.10s"/>
+<rect x="754" y="199" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:3.08s,7.31s"/>
+<rect x="678" y="218" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:2.79s,7.10s"/>
+<rect x="697" y="218" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:2.87s,7.17s"/>
+<rect x="754" y="218" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:3.11s,7.38s"/>
+<rect x="678" y="237" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:2.82s,7.17s"/>
+<rect x="716" y="237" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:2.98s,7.31s"/>
+<rect x="754" y="237" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:3.14s,7.45s"/>
+<rect x="678" y="256" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:2.84s,7.24s"/>
+<rect x="735" y="256" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:3.08s,7.45s"/>
+<rect x="754" y="256" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:3.16s,7.52s"/>
+<rect x="678" y="275" width="15" height="15" rx="3.75" class="n l3" style="animation-delay:2.87s,7.31s"/>
+<rect x="735" y="275" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:3.10s,7.52s"/>
+<rect x="754" y="275" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:3.19s,7.59s"/>
+<rect x="678" y="294" width="15" height="15" rx="3.75" class="n l3" style="animation-delay:2.89s,7.38s"/>
+<rect x="754" y="294" width="15" height="15" rx="3.75" class="n l4" style="animation-delay:3.21s,7.66s"/>
+<rect class="sweep motion" x="141" y="174" width="3" height="140" rx="1.5" fill="#b9f6ca"/>
+<text x="845" y="333" font-size="12" fill="#71717a" text-anchor="end" textLength="25.99" lengthAdjust="spacingAndGlyphs">More</text>
+<rect x="800.01" y="323" width="11" height="11" rx="2.6" fill="#38e062"/>
+<rect x="785.01" y="323" width="11" height="11" rx="2.6" fill="#26a641"/>
+<rect x="770.01" y="323" width="11" height="11" rx="2.6" fill="#006d32"/>
+<rect x="755.01" y="323" width="11" height="11" rx="2.6" fill="#0e4429"/>
+<rect x="740.01" y="323" width="11" height="11" rx="2.6" fill="#1a1a1f"/>
+<text x="732.01" y="333" font-size="12" fill="#71717a" text-anchor="end" textLength="22" lengthAdjust="spacingAndGlyphs">Less</text>
+<text x="70" y="333" font-size="13.5" fill="#a1a1aa" font-style="italic" textLength="357.47" lengthAdjust="spacingAndGlyphs">85 squares, drawn by a script in this repo. No backdated commits.</text>
+<path d="M40 385 l7 4.5 l-7 4.5 z" fill="#38e062"/>
+<g class="rot r1" style="animation-delay:0s"><text x="56" y="394" font-size="15" fill="#fafafa" font-weight="700" textLength="54.99" lengthAdjust="spacingAndGlyphs">DocIntel</text><text x="117.99" y="394" font-size="15" fill="#a1a1aa" textLength="265.35" lengthAdjust="spacingAndGlyphs">invoices read by Gemini, checked in Python</text></g>
+<g class="rot" style="animation-delay:4s"><text x="56" y="394" font-size="15" fill="#fafafa" font-weight="700" textLength="69.19" lengthAdjust="spacingAndGlyphs">BahasaBot</text><text x="132.19" y="394" font-size="15" fill="#a1a1aa" textLength="270.23" lengthAdjust="spacingAndGlyphs">a Malay tutor that won Silver at PIXEL 2026</text></g>
+<g class="rot" style="animation-delay:8s"><text x="56" y="394" font-size="15" fill="#fafafa" font-weight="700" textLength="81.52" lengthAdjust="spacingAndGlyphs">Virtual Zara</text><text x="144.52" y="394" font-size="15" fill="#a1a1aa" textLength="250.78" lengthAdjust="spacingAndGlyphs">an n8n agent across five business systems</text></g>
+<g class="rot" style="animation-delay:12s"><text x="56" y="394" font-size="15" fill="#fafafa" font-weight="700" textLength="89.16" lengthAdjust="spacingAndGlyphs">ChargeWatch</text><text x="152.16" y="394" font-size="15" fill="#a1a1aa" textLength="234.51" lengthAdjust="spacingAndGlyphs">Android battery alerts with no backend</text></g>
+</svg>

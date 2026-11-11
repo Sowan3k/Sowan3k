@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 758" width="440" height="758" role="img" aria-labelledby="t d">
+<title id="t">DocIntel, an AI document intelligence system</title>
+<desc id="d">Reads invoices from PDFs, scans, phone photos, Excel and CSV. A scan line passes over an invoice and eight fields turn green. Pipeline: ingest, OCR, extract, validate, review and search. All fields correct on 91 of 91 synthetic invoices, 439 tests in CI with 95% coverage, 12 of 12 planted errors caught, about 0.0015 US dollars per invoice.</desc>
+<defs>
+<clipPath id="card"><rect x="1" y="1" width="438" height="756" rx="15"/></clipPath>
+<radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#38e062" stop-opacity="0.10"/><stop offset="1" stop-color="#38e062" stop-opacity="0"/></radialGradient>
+<linearGradient id="pulse" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38e062" stop-opacity="0"/><stop offset="0.8" stop-color="#38e062"/><stop offset="1" stop-color="#b9f6ca"/></linearGradient>
+</defs>
+<style>
+text { font-family: 'Times New Roman', Times, 'Liberation Serif', 'Nimbus Roman', serif; }
+.pulse { animation: pulse 2s ease-in-out infinite; }
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .3; } }
+
+.f0 { animation: f0 8.0s linear infinite; }
+@keyframes f0 { 0%, 8.3% { fill: #3a3a42; } 9.8% { fill: #b9f6ca; } 13.3%, 90% { fill: #38e062; } 95%, 100% { fill: #3a3a42; } }
+.f1 { animation: f1 8.0s linear infinite; }
+@keyframes f1 { 0%, 15.0% { fill: #3a3a42; } 16.5% { fill: #b9f6ca; } 20.0%, 90% { fill: #38e062; } 95%, 100% { fill: #3a3a42; } }
+.f2 { animation: f2 8.0s linear infinite; }
+@keyframes f2 { 0%, 21.7% { fill: #3a3a42; } 23.2% { fill: #b9f6ca; } 26.7%, 90% { fill: #38e062; } 95%, 100% { fill: #3a3a42; } }
+.f3 { animation: f3 8.0s linear infinite; }
+@keyframes f3 { 0%, 28.3% { fill: #3a3a42; } 29.8% { fill: #b9f6ca; } 33.3%, 90% { fill: #38e062; } 95%, 100% { fill: #3a3a42; } }
+.f4 { animation: f4 8.0s linear infinite; }
+@keyframes f4 { 0%, 35.0% { fill: #3a3a42; } 36.5% { fill: #b9f6ca; } 40.0%, 90% { fill: #38e062; } 95%, 100% { fill: #3a3a42; } }
+.f5 { animation: f5 8.0s linear infinite; }
+@keyframes f5 { 0%, 41.7% { fill: #3a3a42; } 43.2% { fill: #b9f6ca; } 46.7%, 90% { fill: #38e062; } 95%, 100% { fill: #3a3a42; } }
+.scan { animation: scan 8.0s linear infinite; }
+@keyframes scan { 0%, 5% { transform: translateY(0); opacity: 0; } 6% { opacity: .9; } 45% { transform: translateY(82px); opacity: .9; } 46%, 100% { transform: translateY(82px); opacity: 0; } }
+.box { fill: #101013; stroke: #27272a; stroke-width: 1.2; animation: box 6s linear infinite backwards; }
+@keyframes box { 0% { stroke: #27272a; } 3%, 18% { stroke: #38e062; } 34%, 100% { stroke: #27272a; } }
+.runner { animation: go 6s linear infinite; }
+@keyframes go { 0% { transform: translateX(0); opacity: 1; } 80% { transform: translateX(880px); opacity: 1; } 81%, 100% { transform: translateX(880px); opacity: 0; } }
+
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } .motion { display: none; } }
+</style>
+<rect x="1" y="1" width="438" height="756" rx="15" fill="#09090b"/>
+<g clip-path="url(#card)"><circle cx="380" cy="0" r="272" fill="url(#glow)"/></g>
+<rect x="1" y="1" width="438" height="756" rx="15" fill="none" stroke="#27272a"/>
+<text x="24" y="46" font-size="11.5" fill="#38e062" font-weight="700" letter-spacing="2.2" textLength="270.89" lengthAdjust="spacingAndGlyphs">FEATURED BUILD · NOVEMBER 2026</text>
+<rect x="24" y="62" width="231.79" height="26" rx="13" fill="#0f2a17" stroke="#38e062" stroke-opacity="0.35"/>
+<text x="40" y="79.2" font-size="11" fill="#38e062" font-weight="700" letter-spacing="1.5" textLength="201.79" lengthAdjust="spacingAndGlyphs">BUILT IN 5 DAYS, ON A PHONE</text>
+<text x="23" y="136" font-size="40" fill="#fafafa" font-weight="700" textLength="146.64" lengthAdjust="spacingAndGlyphs">DocIntel</text>
+<text x="24" y="166" font-size="17.5" fill="#d4d4d8" textLength="238.17" lengthAdjust="spacingAndGlyphs">Reads invoices from PDFs, scans,</text>
+<text x="24" y="188" font-size="17.5" fill="#d4d4d8" textLength="212.58" lengthAdjust="spacingAndGlyphs">phone photos, Excel and CSV.</text>
+<text x="24" y="214" font-size="17.5" fill="#a1a1aa" font-style="italic" textLength="166.55" lengthAdjust="spacingAndGlyphs">Gemini reads the fields.</text>
+<text x="24" y="236" font-size="17.5" fill="#a1a1aa" font-style="italic" textLength="203.1" lengthAdjust="spacingAndGlyphs">Python checks every number.</text>
+<rect x="24" y="256" width="392" height="104" rx="10" fill="#101013" stroke="#27272a"/>
+<rect x="40.5" y="268.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="82.5" y="268.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="96.5" y="268.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="110.5" y="268.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="138.5" y="268.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="166.5" y="268.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="320.5" y="268.5" width="9" height="9" rx="1.98" fill="#38e062" class="f0"/>
+<rect x="334.5" y="268.5" width="9" height="9" rx="1.98" fill="#38e062" class="f0"/>
+<rect x="348.5" y="268.5" width="9" height="9" rx="1.98" fill="#38e062" class="f0"/>
+<rect x="362.5" y="268.5" width="9" height="9" rx="1.98" fill="#38e062" class="f0"/>
+<rect x="376.5" y="268.5" width="9" height="9" rx="1.98" fill="#38e062" class="f0"/>
+<rect x="54.5" y="282.5" width="9" height="9" rx="1.98" fill="#38e062" class="f1"/>
+<rect x="68.5" y="282.5" width="9" height="9" rx="1.98" fill="#38e062" class="f1"/>
+<rect x="82.5" y="282.5" width="9" height="9" rx="1.98" fill="#38e062" class="f1"/>
+<rect x="96.5" y="282.5" width="9" height="9" rx="1.98" fill="#38e062" class="f1"/>
+<rect x="110.5" y="282.5" width="9" height="9" rx="1.98" fill="#38e062" class="f1"/>
+<rect x="138.5" y="282.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="320.5" y="282.5" width="9" height="9" rx="1.98" fill="#38e062" class="f1"/>
+<rect x="334.5" y="282.5" width="9" height="9" rx="1.98" fill="#38e062" class="f1"/>
+<rect x="348.5" y="282.5" width="9" height="9" rx="1.98" fill="#38e062" class="f1"/>
+<rect x="362.5" y="282.5" width="9" height="9" rx="1.98" fill="#38e062" class="f1"/>
+<rect x="376.5" y="282.5" width="9" height="9" rx="1.98" fill="#38e062" class="f1"/>
+<rect x="40.5" y="296.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="54.5" y="296.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="68.5" y="296.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="82.5" y="296.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="96.5" y="296.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="124.5" y="296.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="138.5" y="296.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="152.5" y="296.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="166.5" y="296.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="180.5" y="296.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="194.5" y="296.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="348.5" y="296.5" width="9" height="9" rx="1.98" fill="#38e062" class="f2"/>
+<rect x="362.5" y="296.5" width="9" height="9" rx="1.98" fill="#38e062" class="f2"/>
+<rect x="376.5" y="296.5" width="9" height="9" rx="1.98" fill="#38e062" class="f2"/>
+<rect x="390.5" y="296.5" width="9" height="9" rx="1.98" fill="#38e062" class="f2"/>
+<rect x="40.5" y="310.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="54.5" y="310.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="68.5" y="310.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="82.5" y="310.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="96.5" y="310.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="110.5" y="310.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="138.5" y="310.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="152.5" y="310.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="166.5" y="310.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="194.5" y="310.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="334.5" y="310.5" width="9" height="9" rx="1.98" fill="#38e062" class="f3"/>
+<rect x="348.5" y="310.5" width="9" height="9" rx="1.98" fill="#38e062" class="f3"/>
+<rect x="362.5" y="310.5" width="9" height="9" rx="1.98" fill="#38e062" class="f3"/>
+<rect x="376.5" y="310.5" width="9" height="9" rx="1.98" fill="#38e062" class="f3"/>
+<rect x="390.5" y="310.5" width="9" height="9" rx="1.98" fill="#38e062" class="f3"/>
+<rect x="54.5" y="324.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="82.5" y="324.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="96.5" y="324.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="124.5" y="324.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="138.5" y="324.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="152.5" y="324.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="208.5" y="324.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="362.5" y="324.5" width="9" height="9" rx="1.98" fill="#38e062" class="f4"/>
+<rect x="376.5" y="324.5" width="9" height="9" rx="1.98" fill="#38e062" class="f4"/>
+<rect x="390.5" y="324.5" width="9" height="9" rx="1.98" fill="#38e062" class="f4"/>
+<rect x="54.5" y="338.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="68.5" y="338.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="96.5" y="338.5" width="9" height="9" rx="1.98" fill="#38e062" class="f5"/>
+<rect x="110.5" y="338.5" width="9" height="9" rx="1.98" fill="#38e062" class="f5"/>
+<rect x="124.5" y="338.5" width="9" height="9" rx="1.98" fill="#38e062" class="f5"/>
+<rect x="152.5" y="338.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="166.5" y="338.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="180.5" y="338.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="194.5" y="338.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="208.5" y="338.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="222.5" y="338.5" width="9" height="9" rx="1.98" fill="#26262c"/>
+<rect x="334.5" y="338.5" width="9" height="9" rx="1.98" fill="#38e062" class="f5"/>
+<rect x="348.5" y="338.5" width="9" height="9" rx="1.98" fill="#38e062" class="f5"/>
+<rect x="362.5" y="338.5" width="9" height="9" rx="1.98" fill="#38e062" class="f5"/>
+<rect x="376.5" y="338.5" width="9" height="9" rx="1.98" fill="#38e062" class="f5"/>
+<rect class="scan motion" x="36.5" y="266.5" width="367" height="1.6" rx=".8" fill="#b9f6ca"/>
+<text x="416" y="380" font-size="12.5" fill="#71717a" font-style="italic" text-anchor="end" textLength="219.26" lengthAdjust="spacingAndGlyphs">eight fields, each checked against its source</text>
+<rect class="box" style="animation-delay:0.00s" x="24" y="398" width="392" height="34" rx="10"/>
+<text x="38" y="420" font-size="15.5" fill="#fafafa" font-weight="700" textLength="40.48" lengthAdjust="spacingAndGlyphs">Ingest</text>
+<text x="402" y="420" font-size="13" fill="#a1a1aa" font-style="italic" text-anchor="end" textLength="110.83" lengthAdjust="spacingAndGlyphs">PyMuPDF · OpenCV</text>
+<rect class="box" style="animation-delay:0.90s" x="24" y="440" width="392" height="34" rx="10"/>
+<text x="38" y="462" font-size="15.5" fill="#fafafa" font-weight="700" textLength="34.44" lengthAdjust="spacingAndGlyphs">OCR</text>
+<text x="402" y="462" font-size="13" fill="#a1a1aa" font-style="italic" text-anchor="end" textLength="86.19" lengthAdjust="spacingAndGlyphs">Tesseract, vision</text>
+<rect class="box" style="animation-delay:1.80s" x="24" y="482" width="392" height="34" rx="10"/>
+<text x="38" y="504" font-size="15.5" fill="#fafafa" font-weight="700" textLength="49.92" lengthAdjust="spacingAndGlyphs">Extract</text>
+<text x="402" y="504" font-size="13" fill="#a1a1aa" font-style="italic" text-anchor="end" textLength="99" lengthAdjust="spacingAndGlyphs">Gemini + evidence</text>
+<rect class="box" style="animation-delay:2.70s" x="24" y="524" width="392" height="34" rx="10"/>
+<text x="38" y="546" font-size="15.5" fill="#fafafa" font-weight="700" textLength="54.55" lengthAdjust="spacingAndGlyphs">Validate</text>
+<text x="402" y="546" font-size="13" fill="#a1a1aa" font-style="italic" text-anchor="end" textLength="88.57" lengthAdjust="spacingAndGlyphs">11 Decimal rules</text>
+<rect class="box" style="animation-delay:3.60s" x="24" y="566" width="392" height="34" rx="10"/>
+<text x="38" y="588" font-size="15.5" fill="#fafafa" font-weight="700" textLength="97.86" lengthAdjust="spacingAndGlyphs">Review, search</text>
+<text x="402" y="588" font-size="13" fill="#a1a1aa" font-style="italic" text-anchor="end" textLength="86.27" lengthAdjust="spacingAndGlyphs">queue · pgvector</text>
+<path d="M24 618 H416" stroke="#27272a"/>
+<text x="24" y="652" font-size="26" fill="#38e062" font-weight="700" textLength="72.22" lengthAdjust="spacingAndGlyphs">91 / 91</text>
+<text x="24" y="671" font-size="12.5" fill="#a1a1aa" textLength="127.73" lengthAdjust="spacingAndGlyphs">synthetic invoices correct</text>
+<text x="224" y="652" font-size="26" fill="#fafafa" font-weight="700" textLength="39" lengthAdjust="spacingAndGlyphs">439</text>
+<text x="224" y="671" font-size="12.5" fill="#a1a1aa" textLength="128.09" lengthAdjust="spacingAndGlyphs">tests in CI, 95% coverage</text>
+<text x="24" y="714" font-size="26" fill="#fafafa" font-weight="700" textLength="72.22" lengthAdjust="spacingAndGlyphs">12 / 12</text>
+<text x="24" y="733" font-size="12.5" fill="#a1a1aa" textLength="105.51" lengthAdjust="spacingAndGlyphs">planted errors caught</text>
+<text x="224" y="714" font-size="26" fill="#fafafa" font-weight="700" textLength="98.02" lengthAdjust="spacingAndGlyphs">~$0.0015</text>
+<text x="224" y="733" font-size="12.5" fill="#a1a1aa" textLength="103.43" lengthAdjust="spacingAndGlyphs">per invoice, paid tier</text>
+</svg>

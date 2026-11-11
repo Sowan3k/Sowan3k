@@ -1,87 +1,190 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 190" width="880" height="190" role="img" aria-labelledby="title desc">
-  <title id="title">How I build</title>
-  <desc id="desc">Six steps in order: requirements, rules in CLAUDE.md, phases in PHASES.md, build with Claude Code, log in STATUS.md and DECISIONS.md, then test in CI and ship.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 212" width="880" height="212" role="img" aria-labelledby="t d">
+<title id="t">How I build</title>
+<desc id="d">Six steps in order: requirements, rules in CLAUDE.md, phases in PHASES.md, build with Claude Code, log in STATUS.md and DECISIONS.md, then test in CI and ship.</desc>
+<defs>
+<clipPath id="card"><rect x="1" y="1" width="878" height="210" rx="15"/></clipPath>
+<radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#38e062" stop-opacity="0.10"/><stop offset="1" stop-color="#38e062" stop-opacity="0"/></radialGradient>
+<linearGradient id="pulse" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38e062" stop-opacity="0"/><stop offset="0.8" stop-color="#38e062"/><stop offset="1" stop-color="#b9f6ca"/></linearGradient>
+</defs>
+<style>
+text { font-family: 'Times New Roman', Times, 'Liberation Serif', 'Nimbus Roman', serif; }
+.pulse { animation: pulse 2s ease-in-out infinite; }
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .3; } }
 
-  <defs>
-    <clipPath id="track"><rect x="90" y="88" width="700" height="8"/></clipPath>
-    <linearGradient id="pulse" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#38e062" stop-opacity="0"/>
-      <stop offset="0.8" stop-color="#38e062"/>
-      <stop offset="1" stop-color="#86efac"/>
-    </linearGradient>
-  </defs>
+.pan { fill: #101013; stroke: #27272a; stroke-width: 1.2; animation: pan 7.0s linear infinite backwards; }
+.ic { fill: #26a641; animation: ic 7.0s linear infinite backwards; }
+@keyframes pan { 0% { stroke: #27272a; } 2%, 16% { stroke: #38e062; } 30%, 100% { stroke: #27272a; } }
+@keyframes ic { 0% { fill: #26a641; } 2%, 16% { fill: #b9f6ca; } 30%, 100% { fill: #26a641; } }
+.runner { animation: go 7.0s linear infinite; }
+@keyframes go { 0% { transform: translateX(0); opacity: 1; } 85% { transform: translateX(766px); opacity: 1; } 86%, 100% { transform: translateX(766px); opacity: 0; } }
 
-  <style>
-    text { font-family: 'Times New Roman', Times, 'Liberation Serif', 'Nimbus Roman', serif; }
-    .label { font-size: 12.5px; font-weight: 700; letter-spacing: 2.6px; fill: #38e062; }
-    .hint { font-size: 14px; font-style: italic; fill: #a1a1aa; text-anchor: end; }
-    .step { font-size: 16.5px; font-weight: 700; fill: #fafafa; text-anchor: middle; }
-    .sub { font-size: 13px; font-style: italic; fill: #a1a1aa; text-anchor: middle; }
-    .num { font-size: 13px; font-weight: 700; fill: #a1a1aa; text-anchor: middle; animation: num 7s linear infinite backwards; }
-    .node { fill: #101013; stroke: #3f3f46; stroke-width: 1.2; animation: node 7s linear infinite backwards; }
-    .d1 { animation-delay: 0s; } .d2 { animation-delay: 1.08s; } .d3 { animation-delay: 2.16s; }
-    .d4 { animation-delay: 3.25s; } .d5 { animation-delay: 4.33s; } .d6 { animation-delay: 5.41s; }
-    .runner { animation: run 7s linear infinite; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } .motion { display: none; } }
+</style>
+<rect x="1" y="1" width="878" height="210" rx="15" fill="#09090b"/>
 
-    @keyframes run {
-      0% { transform: translateX(0); opacity: 1; }
-      85% { transform: translateX(770px); opacity: 1; }
-      86%, 100% { transform: translateX(770px); opacity: 0; }
-    }
-    @keyframes node {
-      0% { stroke: #3f3f46; fill: #101013; }
-      2% { stroke: #38e062; fill: #0f2a17; }
-      16% { stroke: #38e062; fill: #0f2a17; }
-      30%, 100% { stroke: #3f3f46; fill: #101013; }
-    }
-    @keyframes num {
-      0% { fill: #a1a1aa; }
-      2%, 16% { fill: #38e062; }
-      30%, 100% { fill: #a1a1aa; }
-    }
-    @media (prefers-reduced-motion: reduce) {
-      .node, .num, .runner { animation: none; }
-      .runner { display: none; }
-    }
-  </style>
-
-  <rect x="1" y="1" width="878" height="188" rx="15" fill="#09090b" stroke="#27272a"/>
-
-  <text class="label" x="40" y="44">HOW I BUILD</text>
-  <text class="hint" x="840" y="44">spec first, then phase by phase</text>
-
-  <!-- track -->
-  <path d="M90 92 H790" stroke="#27272a" stroke-width="2"/>
-  <g clip-path="url(#track)">
-    <rect class="runner" x="20" y="91" width="70" height="2" fill="url(#pulse)"/>
-  </g>
-
-  <!-- nodes -->
-  <circle class="node d1" cx="90" cy="92" r="17"/>
-  <circle class="node d2" cx="230" cy="92" r="17"/>
-  <circle class="node d3" cx="370" cy="92" r="17"/>
-  <circle class="node d4" cx="510" cy="92" r="17"/>
-  <circle class="node d5" cx="650" cy="92" r="17"/>
-  <circle class="node d6" cx="790" cy="92" r="17"/>
-
-  <text class="num d1" x="90" y="96.5">01</text>
-  <text class="num d2" x="230" y="96.5">02</text>
-  <text class="num d3" x="370" y="96.5">03</text>
-  <text class="num d4" x="510" y="96.5">04</text>
-  <text class="num d5" x="650" y="96.5">05</text>
-  <text class="num d6" x="790" y="96.5">06</text>
-
-  <text class="step" x="90" y="139">Requirements</text>
-  <text class="step" x="230" y="139">Rules</text>
-  <text class="step" x="370" y="139">Phases</text>
-  <text class="step" x="510" y="139">Build</text>
-  <text class="step" x="650" y="139">Log</text>
-  <text class="step" x="790" y="139">Test, ship</text>
-
-  <text class="sub" x="90" y="159">what it must do</text>
-  <text class="sub" x="230" y="159">CLAUDE.md</text>
-  <text class="sub" x="370" y="159">PHASES.md</text>
-  <text class="sub" x="510" y="159">Claude Code</text>
-  <text class="sub" x="650" y="159">STATUS · DECISIONS</text>
-  <text class="sub" x="790" y="159">CI, then deploy</text>
+<rect x="1" y="1" width="878" height="210" rx="15" fill="none" stroke="#27272a"/>
+<text x="40" y="46" font-size="12.5" fill="#38e062" font-weight="700" letter-spacing="2.6" textLength="302.65" lengthAdjust="spacingAndGlyphs">SPEC FIRST, THEN PHASE BY PHASE</text>
+<text x="840" y="46" font-size="14" fill="#a1a1aa" font-style="italic" text-anchor="end" textLength="237.87" lengthAdjust="spacingAndGlyphs">nothing gets built before it is written down</text>
+<path d="M92 104 H788" stroke="#27272a" stroke-width="2"/>
+<clipPath id="track"><rect x="92" y="100" width="696" height="8"/></clipPath><g clip-path="url(#track)"><rect class="runner motion" x="22" y="103" width="70" height="2" fill="url(#pulse)"/></g>
+<rect class="pan" style="animation-delay:0.00s" x="63" y="75" width="58" height="58" rx="12"/>
+<rect x="71.5" y="83.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="77.5" y="83.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="83.5" y="83.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="89.5" y="83.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="95.5" y="83.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="101.5" y="83.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="107.5" y="83.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="71.5" y="89.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="107.5" y="89.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="71.5" y="95.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="83.5" y="95.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="89.5" y="95.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="95.5" y="95.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="107.5" y="95.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="71.5" y="101.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="107.5" y="101.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="71.5" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="83.5" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="89.5" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="95.5" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="107.5" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="71.5" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="107.5" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="71.5" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="77.5" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="83.5" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="89.5" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="95.5" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="101.5" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="107.5" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<text x="92" y="67" font-size="12.5" fill="#38e062" font-weight="700" font-style="italic" text-anchor="middle" textLength="12.5" lengthAdjust="spacingAndGlyphs">01</text>
+<text x="92" y="155" font-size="16.5" fill="#fafafa" font-weight="700" text-anchor="middle" textLength="98.69" lengthAdjust="spacingAndGlyphs">Requirements</text>
+<text x="92" y="174" font-size="13" fill="#a1a1aa" font-style="italic" text-anchor="middle" textLength="79.81" lengthAdjust="spacingAndGlyphs">what it must do</text>
+<rect class="pan" style="animation-delay:1.08s" x="202.2" y="75" width="58" height="58" rx="12"/>
+<rect x="222.7" y="83.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.08s"/>
+<rect x="228.7" y="83.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.08s"/>
+<rect x="234.7" y="83.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.08s"/>
+<rect x="216.7" y="89.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.08s"/>
+<rect x="240.7" y="89.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.08s"/>
+<rect x="216.7" y="95.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.08s"/>
+<rect x="240.7" y="95.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.08s"/>
+<rect x="210.7" y="101.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.08s"/>
+<rect x="216.7" y="101.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.08s"/>
+<rect x="222.7" y="101.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.08s"/>
+<rect x="228.7" y="101.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.08s"/>
+<rect x="234.7" y="101.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.08s"/>
+<rect x="240.7" y="101.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.08s"/>
+<rect x="246.7" y="101.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.08s"/>
+<rect x="210.7" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.08s"/>
+<rect x="216.7" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.08s"/>
+<rect x="222.7" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.08s"/>
+<rect x="234.7" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.08s"/>
+<rect x="240.7" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.08s"/>
+<rect x="246.7" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.08s"/>
+<rect x="210.7" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.08s"/>
+<rect x="216.7" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.08s"/>
+<rect x="222.7" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.08s"/>
+<rect x="234.7" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.08s"/>
+<rect x="240.7" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.08s"/>
+<rect x="246.7" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.08s"/>
+<rect x="210.7" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.08s"/>
+<rect x="216.7" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.08s"/>
+<rect x="222.7" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.08s"/>
+<rect x="228.7" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.08s"/>
+<rect x="234.7" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.08s"/>
+<rect x="240.7" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.08s"/>
+<rect x="246.7" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.08s"/>
+<text x="231.2" y="67" font-size="12.5" fill="#38e062" font-weight="700" font-style="italic" text-anchor="middle" textLength="12.5" lengthAdjust="spacingAndGlyphs">02</text>
+<text x="231.2" y="155" font-size="16.5" fill="#fafafa" font-weight="700" text-anchor="middle" textLength="39.42" lengthAdjust="spacingAndGlyphs">Rules</text>
+<text x="231.2" y="174" font-size="13" fill="#a1a1aa" font-style="italic" text-anchor="middle" textLength="69.7" lengthAdjust="spacingAndGlyphs">CLAUDE.md</text>
+<rect class="pan" style="animation-delay:2.16s" x="341.4" y="75" width="58" height="58" rx="12"/>
+<rect x="379.9" y="83.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.16s"/>
+<rect x="385.9" y="83.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.16s"/>
+<rect x="379.9" y="89.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.16s"/>
+<rect x="385.9" y="89.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.16s"/>
+<rect x="367.9" y="95.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.16s"/>
+<rect x="373.9" y="95.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.16s"/>
+<rect x="379.9" y="95.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.16s"/>
+<rect x="385.9" y="95.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.16s"/>
+<rect x="367.9" y="101.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.16s"/>
+<rect x="373.9" y="101.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.16s"/>
+<rect x="379.9" y="101.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.16s"/>
+<rect x="385.9" y="101.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.16s"/>
+<rect x="355.9" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.16s"/>
+<rect x="361.9" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.16s"/>
+<rect x="367.9" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.16s"/>
+<rect x="373.9" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.16s"/>
+<rect x="379.9" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.16s"/>
+<rect x="385.9" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.16s"/>
+<rect x="355.9" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.16s"/>
+<rect x="361.9" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.16s"/>
+<rect x="367.9" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.16s"/>
+<rect x="373.9" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.16s"/>
+<rect x="379.9" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.16s"/>
+<rect x="385.9" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.16s"/>
+<rect x="349.9" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.16s"/>
+<rect x="355.9" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.16s"/>
+<rect x="361.9" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.16s"/>
+<rect x="367.9" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.16s"/>
+<rect x="373.9" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.16s"/>
+<rect x="379.9" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.16s"/>
+<rect x="385.9" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.16s"/>
+<text x="370.4" y="67" font-size="12.5" fill="#38e062" font-weight="700" font-style="italic" text-anchor="middle" textLength="12.5" lengthAdjust="spacingAndGlyphs">03</text>
+<text x="370.4" y="155" font-size="16.5" fill="#fafafa" font-weight="700" text-anchor="middle" textLength="47.67" lengthAdjust="spacingAndGlyphs">Phases</text>
+<text x="370.4" y="174" font-size="13" fill="#a1a1aa" font-style="italic" text-anchor="middle" textLength="65.35" lengthAdjust="spacingAndGlyphs">PHASES.md</text>
+<rect class="pan" style="animation-delay:3.24s" x="480.6" y="75" width="58" height="58" rx="12"/>
+<rect x="501.1" y="89.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:3.24s"/>
+<rect x="513.1" y="89.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:3.24s"/>
+<rect x="495.1" y="95.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:3.24s"/>
+<rect x="519.1" y="95.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:3.24s"/>
+<rect x="489.1" y="101.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:3.24s"/>
+<rect x="525.1" y="101.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:3.24s"/>
+<rect x="495.1" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:3.24s"/>
+<rect x="519.1" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:3.24s"/>
+<rect x="501.1" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:3.24s"/>
+<rect x="513.1" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:3.24s"/>
+<text x="509.6" y="67" font-size="12.5" fill="#38e062" font-weight="700" font-style="italic" text-anchor="middle" textLength="12.5" lengthAdjust="spacingAndGlyphs">04</text>
+<text x="509.6" y="155" font-size="16.5" fill="#fafafa" font-weight="700" text-anchor="middle" textLength="38.53" lengthAdjust="spacingAndGlyphs">Build</text>
+<text x="509.6" y="174" font-size="13" fill="#a1a1aa" font-style="italic" text-anchor="middle" textLength="68.24" lengthAdjust="spacingAndGlyphs">Claude Code</text>
+<rect class="pan" style="animation-delay:4.33s" x="619.8" y="75" width="58" height="58" rx="12"/>
+<rect x="628.3" y="89.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:4.33s"/>
+<rect x="640.3" y="89.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:4.33s"/>
+<rect x="646.3" y="89.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:4.33s"/>
+<rect x="652.3" y="89.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:4.33s"/>
+<rect x="658.3" y="89.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:4.33s"/>
+<rect x="664.3" y="89.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:4.33s"/>
+<rect x="628.3" y="101.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:4.33s"/>
+<rect x="640.3" y="101.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:4.33s"/>
+<rect x="646.3" y="101.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:4.33s"/>
+<rect x="652.3" y="101.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:4.33s"/>
+<rect x="658.3" y="101.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:4.33s"/>
+<rect x="664.3" y="101.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:4.33s"/>
+<rect x="628.3" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:4.33s"/>
+<rect x="640.3" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:4.33s"/>
+<rect x="646.3" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:4.33s"/>
+<rect x="652.3" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:4.33s"/>
+<rect x="658.3" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:4.33s"/>
+<rect x="664.3" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:4.33s"/>
+<text x="648.8" y="67" font-size="12.5" fill="#38e062" font-weight="700" font-style="italic" text-anchor="middle" textLength="12.5" lengthAdjust="spacingAndGlyphs">05</text>
+<text x="648.8" y="155" font-size="16.5" fill="#fafafa" font-weight="700" text-anchor="middle" textLength="27.51" lengthAdjust="spacingAndGlyphs">Log</text>
+<text x="648.8" y="174" font-size="13" fill="#a1a1aa" font-style="italic" text-anchor="middle" textLength="118.81" lengthAdjust="spacingAndGlyphs">STATUS · DECISIONS</text>
+<rect class="pan" style="animation-delay:5.41s" x="759" y="75" width="58" height="58" rx="12"/>
+<rect x="803.5" y="89.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:5.41s"/>
+<rect x="797.5" y="95.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:5.41s"/>
+<rect x="803.5" y="95.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:5.41s"/>
+<rect x="767.5" y="101.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:5.41s"/>
+<rect x="791.5" y="101.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:5.41s"/>
+<rect x="797.5" y="101.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:5.41s"/>
+<rect x="767.5" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:5.41s"/>
+<rect x="773.5" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:5.41s"/>
+<rect x="785.5" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:5.41s"/>
+<rect x="791.5" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:5.41s"/>
+<rect x="773.5" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:5.41s"/>
+<rect x="779.5" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:5.41s"/>
+<rect x="785.5" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:5.41s"/>
+<rect x="779.5" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:5.41s"/>
+<text x="788" y="67" font-size="12.5" fill="#38e062" font-weight="700" font-style="italic" text-anchor="middle" textLength="12.5" lengthAdjust="spacingAndGlyphs">06</text>
+<text x="788" y="155" font-size="16.5" fill="#fafafa" font-weight="700" text-anchor="middle" textLength="66.34" lengthAdjust="spacingAndGlyphs">Test, ship</text>
+<text x="788" y="174" font-size="13" fill="#a1a1aa" font-style="italic" text-anchor="middle" textLength="79.78" lengthAdjust="spacingAndGlyphs">CI, then deploy</text>
 </svg>

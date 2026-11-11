@@ -1,90 +1,137 @@
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="Noor Mohammad Sowan. Software engineer in Dhaka. I build AI automation and full-stack systems.">
+  <picture>
+    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Sowan3k/Sowan3k/main/assets/hero-narrow.svg">
+    <img src="assets/hero.svg" width="100%" alt="Noor Mohammad Sowan. Software engineer in Dhaka, open to AI engineering roles. I build AI automation and the full-stack systems around it. A contribution graph whose squares spell SOWAN.">
+  </picture>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/noor-mohammad-sowan"><img src="https://img.shields.io/badge/LinkedIn-38e062?style=for-the-badge" alt="LinkedIn"></a>
-  <a href="mailto:nurmohammadsowan119@gmail.com"><img src="https://img.shields.io/badge/Email-38e062?style=for-the-badge" alt="Email"></a>
-  <a href="https://sowan-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolio-38e062?style=for-the-badge" alt="Portfolio"></a>
-  <a href="https://www.pexels.com/@noor-mohammad-sowan-944251072"><img src="https://img.shields.io/badge/Pexels-17171b?style=for-the-badge" alt="Pexels"></a>
+  <a href="mailto:nurmohammadsowan119@gmail.com"><img src="assets/btn-email.svg" height="46" alt="Email"></a>
+  <a href="https://www.linkedin.com/in/noor-mohammad-sowan"><img src="assets/btn-linkedin.svg" height="46" alt="LinkedIn"></a>
+  <a href="https://sowan-portfolio.vercel.app"><img src="assets/btn-portfolio.svg" height="46" alt="Portfolio"></a>
+  <a href="https://www.pexels.com/@noor-mohammad-sowan-944251072"><img src="assets/btn-pexels.svg" height="46" alt="Pexels"></a>
 </p>
 
-## About
+<p>
+  <picture>
+    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Sowan3k/Sowan3k/main/assets/section-about-narrow.svg">
+    <img src="assets/section-about.svg" width="100%" alt="About">
+  </picture>
+</p>
 
-I am a software engineer in Dhaka, Bangladesh. I studied Software Engineering at Universiti Sains Malaysia in Penang and finished in August 2026.
+I am a software engineer from Dhaka. I spent four years in Penang studying Software Engineering at Universiti Sains Malaysia, and for most of that time I also worked part-time at a hotel in George Town, running the front-desk records and looking after its website. I finished in August 2026 and moved back home the month after.
 
-Most of my work is AI automation and the full-stack systems around it. At ECTrons in 2025 I designed Virtual Zara, an n8n agent that connected GitLab, Google Workspace, Microsoft Graph, Telegram and OpenAI for the company's HR, finance and project teams. My final-year project, BahasaBot, won a Silver Award at the PIXEL 2026 showcase. In November 2026 I built DocIntel, an invoice-processing system, in five days from my phone.
+My first engineering job was an internship at ECTrons in 2025, where I designed Virtual Zara. It was an n8n agent that connected GitLab, Google Workspace, Microsoft Graph, Telegram and OpenAI, so staff in HR, finance and project management could send it text, voice or a document and get a report or a PDF back. My final-year project, BahasaBot, teaches Malay to international students and won a Silver Award at the PIXEL 2026 showcase.
 
-I am looking for AI engineering and automation roles, and I am open to relocation and remote work. Outside of code I read on psychology, geopolitics and religion, and I publish photographs on Pexels.
+In November 2026 I was given five days for a take-home assessment and had no laptop with me, so I built DocIntel from my phone. It is the first card under Featured.
 
-## How I build
+I am looking for AI engineering and automation work, and I am open to relocating or working remotely. Right now I am going back over Python and core computer science fundamentals and learning German. Away from the keyboard I take photographs and short videos (130 of them are on Pexels) and read about psychology, geopolitics and religion.
+
+<p>
+  <picture>
+    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Sowan3k/Sowan3k/main/assets/section-build-narrow.svg">
+    <img src="assets/section-build.svg" width="100%" alt="How I build">
+  </picture>
+</p>
 
 <p align="center">
-  <img src="assets/method.svg" width="100%" alt="How I build: requirements, rules in CLAUDE.md, phases in PHASES.md, build with Claude Code, log in STATUS.md and DECISIONS.md, then test in CI and ship.">
+  <picture>
+    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Sowan3k/Sowan3k/main/assets/method-narrow.svg">
+    <img src="assets/method.svg" width="100%" alt="How I build, in six steps: requirements, rules in CLAUDE.md, phases in PHASES.md, build with Claude Code, log in STATUS.md and DECISIONS.md, then test in CI and ship.">
+  </picture>
 </p>
 
-I write the requirements, a short file of rules the build must never break, and a phased plan before any code. Then I build phase by phase with AI coding tools, mainly Claude Code, and log each decision. DocIntel has 89 recorded decisions. Vindeshi Express started from a baseline of 81 functional requirements, and its commits cite the requirement each one satisfies.
+I write things down before I build them. The requirements come first, then a short file of rules the build is never allowed to break, then a plan cut into phases. The code comes after that, one phase at a time, with AI coding tools (mainly Claude Code), and I log each decision as I make it. DocIntel has 89 decisions on record. Vindeshi Express started from 81 written requirements, and each commit names the requirement it satisfies.
 
-## Featured
+<p>
+  <picture>
+    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Sowan3k/Sowan3k/main/assets/section-featured-narrow.svg">
+    <img src="assets/section-featured.svg" width="100%" alt="Featured">
+  </picture>
+</p>
 
 <p align="center">
   <a href="https://github.com/Sowan3k/AI-Powered-Document-Intelligence-System">
-    <img src="assets/docintel.svg" width="100%" alt="DocIntel. Pipeline: ingest, OCR, extract, validate, review and search. All fields correct on 91 of 91 synthetic invoices, 439 tests in CI, 12 of 12 planted errors caught.">
+    <picture>
+      <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Sowan3k/Sowan3k/main/assets/docintel-narrow.svg">
+      <img src="assets/docintel.svg" width="100%" alt="DocIntel. A scan line passes over an invoice and eight fields turn green. Pipeline: ingest, OCR, extract, validate, review and search. All fields correct on 91 of 91 synthetic invoices, 439 tests in CI, 12 of 12 planted errors caught.">
+    </picture>
   </a>
 </p>
 
-**DocIntel** reads invoices from digital and scanned PDFs, phone photos, TIFF, Excel and CSV. Gemini extracts each field with a confidence score and the source text it came from. Eleven validation rules in exact decimal arithmetic check the numbers and send failures to a review queue. With real Gemini models on a labelled synthetic dataset, all eight fields were correct on 91 of 91 invoices. I built it in five days as a technical assessment, through Claude Code sessions driven by written specifications.
+**DocIntel** reads invoices, whether they arrive as clean PDFs, scans, phone photos, TIFF files, Excel sheets or CSV. Gemini pulls out each field and has to show the text it read it from. It does none of the arithmetic. Eleven rules in exact decimal maths check the sums, the tax and the dates, and anything that fails goes to a person to review. On a labelled set of 91 synthetic invoices, all eight fields came out right on every one. Real invoices are messier than synthetic ones, and the evaluation report says where it struggled: on phone photos it got 87.5% of fields.
 
-[Repository](https://github.com/Sowan3k/AI-Powered-Document-Intelligence-System) · [Walkthrough video](https://youtu.be/n9xKvACPR90) · [API docs](https://docintel-api-y25b.onrender.com/api/docs) · [Evaluation report](https://github.com/Sowan3k/AI-Powered-Document-Intelligence-System/blob/main/docs/EVALUATION.md) · [Web app](https://docintel-tan-two.vercel.app) (sign-in required)
+[Repository](https://github.com/Sowan3k/AI-Powered-Document-Intelligence-System) · [Walkthrough video](https://youtu.be/n9xKvACPR90) · [Evaluation report](https://github.com/Sowan3k/AI-Powered-Document-Intelligence-System/blob/main/docs/EVALUATION.md) · [API docs](https://docintel-api-y25b.onrender.com/api/docs) · [Web app](https://docintel-tan-two.vercel.app) (sign-in required)
 
 <p align="center">
   <a href="https://bahasa-bot.vercel.app">
-    <img src="assets/bahasabot.svg" width="100%" alt="BahasaBot. RAG chatbot, course generator and adaptive quiz. Repeat course generation from about 78 seconds to about 280 milliseconds. In-app rating 4.3 out of 5 from 30 users.">
+    <picture>
+      <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Sowan3k/Sowan3k/main/assets/bahasabot-narrow.svg">
+      <img src="assets/bahasabot.svg" width="100%" alt="BahasaBot. Two rows of squares race: a new course takes 78 seconds, the same topic again takes 280 milliseconds. RAG chatbot, course generator and adaptive quiz. In-app rating 4.3 out of 5 from 30 users.">
+    </picture>
   </a>
 </p>
 
-**BahasaBot** teaches Malay to international students at Malaysian public universities. A RAG chatbot streams replies over Server-Sent Events from a pgvector store. A course generator turns any topic into modules and quizzes, and a template-and-clone layer cut a repeat course from about 78 seconds and 21,300 tokens to about 280 ms and zero tokens. The adaptive quiz recalculates the learner's level on the BahasaBot Proficiency Scale (BPS-1 to BPS-4) from the last three attempts.
+**BahasaBot** is a Malay tutor for international students, who must pass the Bahasa Malaysia subject at Malaysian public universities. The chatbot answers from a small corpus of Malaysian Malay held in pgvector and streams its replies. The course generator builds modules and quizzes for any topic, and the first time that took about 78 seconds. A template-and-clone layer brought a repeat of the same topic down to about 280 ms and zero tokens. The quiz tracks what each learner gets wrong and places them again on a four-level scale (BPS-1 to BPS-4), using their last three attempts. Thirty people used it and rated it 4.3 out of 5 in the app.
 
-[Live demo](https://bahasa-bot.vercel.app) (the first load can take a minute) · [Repository](https://github.com/Sowan3k/BahasaBot)
+[Live demo](https://bahasa-bot.vercel.app) (the server sleeps, so the first load can take a minute) · [Repository](https://github.com/Sowan3k/BahasaBot)
 
-## More builds
+<p>
+  <picture>
+    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Sowan3k/Sowan3k/main/assets/section-more-narrow.svg">
+    <img src="assets/section-more.svg" width="100%" alt="More builds">
+  </picture>
+</p>
 
-| Project | What it is | Stack |
-| --- | --- | --- |
-| **[Vindeshi&nbsp;Express](https://github.com/Sowan3k/Project-V)**<br>in&nbsp;testing | Community-maintained map of study-abroad routes for Bangladeshi students. Shared knowledge is append-only, enforced by PostgreSQL triggers, a Prisma client extension and an ESLint import boundary. Unit and Playwright suites run in CI. | Next.js 15, React 19, TypeScript, Prisma, Neon Postgres, Auth.js, Vitest, Playwright, GitHub Actions |
-| **[ChargeWatch](https://github.com/Sowan3k/chargewatch)**<br>open&nbsp;source | Android app under 500 KB that tells a second phone when the first reaches 80% and when it is full. No account and no backend. Phones pair by QR code and talk through the ntfy push relay. Every release passes an end-to-end test on an Android 14 emulator. | Kotlin, Android, ntfy, GitHub Actions |
-| **[USM&nbsp;Evently](https://usm-evently.vercel.app)**<br>live&nbsp;demo | Campus events platform for USM. Three roles, QR check-in, MyCSD co-curricular points, English and Bahasa Malaysia. Payments are simulated. [Repository](https://github.com/Sowan3k/usm_evently) | Next.js 15, TypeScript, Prisma, Neon Postgres, NextAuth, Zod, Tailwind, shadcn/ui |
-| **[My&nbsp;Bibi](https://github.com/Sowan3k/My-Bibi-App)**<br>open&nbsp;source | Self-hosted private chat and journal app. Local Ollama models, PWA, journals encrypted at rest with a key derived from each user's password. | Next.js, FastAPI, SQLite FTS5, Ollama, Docker Compose |
-| **[Grab&nbsp;Real&#8209;Time&nbsp;Demo](https://grab-realtime-demo.onrender.com)**<br>team&nbsp;coursework | Ride-hailing operations dashboard for CSE443, built by a team of four. Driver fatigue alerts within a 2 s deadline, surge pricing pushed over WebSocket within 500 ms. [Repository](https://github.com/Sowan3k/grab-realtime-demo) | Node.js, Express, WebSocket |
-| **Virtual&nbsp;Zara**<br>internal,&nbsp;ECTrons | n8n automation agent across five systems and three business areas. Takes text, voice and documents, generates documents and PDFs, and turns GitLab activity into project reports. No public code. | n8n, JavaScript, OpenAI API, GitLab API, Google Workspace APIs, Microsoft Graph API, Telegram Bot API |
+**[Vindeshi Express](https://github.com/Sowan3k/Project-V)** · in testing<br>
+A map of study-abroad routes for Bangladeshi students, meant to be kept current by the community. Nothing in the shared data can be deleted, only revised. PostgreSQL triggers, a Prisma extension and a lint rule each enforce that.
 
-## Stack
+**[ChargeWatch](https://github.com/Sowan3k/chargewatch)** · open source<br>
+For when one phone is charging in another room. It tells the phone in your hand when the other one reaches 80% and when it is full. The app is under 500 KB and has no account and no server of mine. A release only ships after an emulator plays the second phone and both alerts arrive.
 
-**Languages**
+**[USM Evently](https://usm-evently.vercel.app)** · live demo · [repository](https://github.com/Sowan3k/usm_evently)<br>
+Campus events for USM students: browse, RSVP, check in by QR code and collect MyCSD co-curricular points. It has three roles and runs in English and Bahasa Malaysia. The payments are simulated.
 
-![Python](https://img.shields.io/badge/Python-17171b?style=for-the-badge&logo=python&logoColor=38e062) ![TypeScript](https://img.shields.io/badge/TypeScript-17171b?style=for-the-badge&logo=typescript&logoColor=38e062) ![JavaScript](https://img.shields.io/badge/JavaScript-17171b?style=for-the-badge&logo=javascript&logoColor=38e062) ![Kotlin](https://img.shields.io/badge/Kotlin-17171b?style=for-the-badge&logo=kotlin&logoColor=38e062) ![SQL](https://img.shields.io/badge/SQL-17171b?style=for-the-badge)
+**[My Bibi](https://github.com/Sowan3k/My-Bibi-App)** · open source<br>
+A private chat and journal app you host yourself with one `docker compose up`. The AI runs on local Ollama models. Each journal is encrypted at rest with a key derived from its owner's password, so whoever hosts the server cannot read it.
 
-**AI and automation**
+**[Grab Real-Time Demo](https://grab-realtime-demo.onrender.com)** · team coursework · [repository](https://github.com/Sowan3k/grab-realtime-demo)<br>
+A ride-hailing operations dashboard that four of us built for a real-time systems course. Fatigue alerts have 2 seconds to fire and surge prices have 500 ms to reach every client.
 
-![LangChain](https://img.shields.io/badge/LangChain-17171b?style=for-the-badge&logo=langchain&logoColor=38e062) ![Gemini API](https://img.shields.io/badge/Gemini_API-17171b?style=for-the-badge&logo=googlegemini&logoColor=38e062) ![Ollama](https://img.shields.io/badge/Ollama-17171b?style=for-the-badge&logo=ollama&logoColor=38e062) ![n8n](https://img.shields.io/badge/n8n-17171b?style=for-the-badge&logo=n8n&logoColor=38e062) ![OpenCV](https://img.shields.io/badge/OpenCV-17171b?style=for-the-badge&logo=opencv&logoColor=38e062) ![RAG with pgvector](https://img.shields.io/badge/RAG_with_pgvector-17171b?style=for-the-badge) ![Tesseract OCR](https://img.shields.io/badge/Tesseract_OCR-17171b?style=for-the-badge) ![OpenAI API](https://img.shields.io/badge/OpenAI_API-17171b?style=for-the-badge)
+**Virtual Zara** · internal, ECTrons<br>
+The n8n agent from my internship. It covered five connected systems and three business areas, and took input by text, voice or document. The code belongs to ECTrons, so there is nothing to link.
 
-**Backend and data**
+<p>
+  <picture>
+    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Sowan3k/Sowan3k/main/assets/section-stack-narrow.svg">
+    <img src="assets/section-stack.svg" width="100%" alt="Stack">
+  </picture>
+</p>
 
-![FastAPI](https://img.shields.io/badge/FastAPI-17171b?style=for-the-badge&logo=fastapi&logoColor=38e062) ![Pydantic](https://img.shields.io/badge/Pydantic-17171b?style=for-the-badge&logo=pydantic&logoColor=38e062) ![Node.js](https://img.shields.io/badge/Node.js-17171b?style=for-the-badge&logo=nodedotjs&logoColor=38e062) ![Express](https://img.shields.io/badge/Express-17171b?style=for-the-badge&logo=express&logoColor=38e062) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17171b?style=for-the-badge&logo=postgresql&logoColor=38e062) ![Supabase](https://img.shields.io/badge/Supabase-17171b?style=for-the-badge&logo=supabase&logoColor=38e062) ![Redis](https://img.shields.io/badge/Redis-17171b?style=for-the-badge&logo=redis&logoColor=38e062) ![SQLite](https://img.shields.io/badge/SQLite-17171b?style=for-the-badge&logo=sqlite&logoColor=38e062) ![Prisma](https://img.shields.io/badge/Prisma-17171b?style=for-the-badge&logo=prisma&logoColor=38e062) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-17171b?style=for-the-badge&logo=sqlalchemy&logoColor=38e062)
+<p align="center">
+  <picture>
+    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Sowan3k/Sowan3k/main/assets/stack-narrow.svg">
+    <img src="assets/stack.svg" width="100%" alt="A grid of tools against builds. TypeScript, Next.js and Tailwind CSS each appear in five builds, PostgreSQL and Vercel in four, and Python, FastAPI, SQLAlchemy, Docker, Render and GitHub Actions in three.">
+  </picture>
+</p>
 
-**Frontend and mobile**
+Rows are tools and columns are things I built. A lit square means that tool is in that build, so the grid only lists what I have shipped with. I also use Figma, Postman, the Linux command line and a Raspberry Pi 5 when the work calls for them.
 
-![Next.js](https://img.shields.io/badge/Next.js-17171b?style=for-the-badge&logo=nextdotjs&logoColor=38e062) ![React](https://img.shields.io/badge/React-17171b?style=for-the-badge&logo=react&logoColor=38e062) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-17171b?style=for-the-badge&logo=tailwindcss&logoColor=38e062) ![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-17171b?style=for-the-badge&logo=shadcnui&logoColor=38e062) ![Android](https://img.shields.io/badge/Android-17171b?style=for-the-badge&logo=android&logoColor=38e062)
+<p>
+  <picture>
+    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Sowan3k/Sowan3k/main/assets/section-github-narrow.svg">
+    <img src="assets/section-github.svg" width="100%" alt="GitHub">
+  </picture>
+</p>
 
-**Testing and delivery**
+This is the real contribution graph. The one at the top of the page is a drawing.
 
-![pytest](https://img.shields.io/badge/pytest-17171b?style=for-the-badge&logo=pytest&logoColor=38e062) ![Vitest](https://img.shields.io/badge/Vitest-17171b?style=for-the-badge&logo=vitest&logoColor=38e062) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-17171b?style=for-the-badge&logo=githubactions&logoColor=38e062) ![Docker](https://img.shields.io/badge/Docker-17171b?style=for-the-badge&logo=docker&logoColor=38e062) ![Vercel](https://img.shields.io/badge/Vercel-17171b?style=for-the-badge&logo=vercel&logoColor=38e062) ![Render](https://img.shields.io/badge/Render-17171b?style=for-the-badge&logo=render&logoColor=38e062) ![Sentry](https://img.shields.io/badge/Sentry-17171b?style=for-the-badge&logo=sentry&logoColor=38e062) ![Postman](https://img.shields.io/badge/Postman-17171b?style=for-the-badge&logo=postman&logoColor=38e062) ![Playwright](https://img.shields.io/badge/Playwright-17171b?style=for-the-badge)
-
-**Also**
-
-![Figma](https://img.shields.io/badge/Figma-17171b?style=for-the-badge&logo=figma&logoColor=38e062) ![Linux CLI](https://img.shields.io/badge/Linux_CLI-17171b?style=for-the-badge&logo=linux&logoColor=38e062) ![Raspberry Pi 5](https://img.shields.io/badge/Raspberry_Pi_5-17171b?style=for-the-badge&logo=raspberrypi&logoColor=38e062)
-
-## GitHub
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sowan3k/Sowan3k/output/snake-dark.svg">
+    <img src="https://raw.githubusercontent.com/Sowan3k/Sowan3k/output/snake.svg" width="100%" alt="Animated contribution graph">
+  </picture>
+</p>
 
 <p align="center">
   <img src="https://github-readme-stats.shion.dev/api?username=Sowan3k&show_icons=true&include_all_commits=true&count_private=true&hide_rank=true&hide=issues,contribs&card_width=330&bg_color=09090b&border_color=27272a&border_radius=15&title_color=fafafa&text_color=a1a1aa&icon_color=38e062&ring_color=38e062" height="160" alt="GitHub stats">
@@ -97,9 +144,16 @@ I write the requirements, a short file of rules the build must never break, and 
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sowan3k/Sowan3k/output/snake-dark.svg">
-    <img src="https://raw.githubusercontent.com/Sowan3k/Sowan3k/output/snake.svg" width="100%" alt="Animated contribution graph">
+    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Sowan3k/Sowan3k/main/assets/footer-narrow.svg">
+    <img src="assets/footer.svg" width="100%" alt="Say hello. nurmohammadsowan119@gmail.com. Dhaka, UTC+6. Open to relocation and remote work.">
   </picture>
+</p>
+
+<p align="center">
+  <a href="mailto:nurmohammadsowan119@gmail.com"><img src="assets/btn-email.svg" height="46" alt="Email"></a>
+  <a href="https://www.linkedin.com/in/noor-mohammad-sowan"><img src="assets/btn-linkedin.svg" height="46" alt="LinkedIn"></a>
+  <a href="https://sowan-portfolio.vercel.app"><img src="assets/btn-portfolio.svg" height="46" alt="Portfolio"></a>
+  <a href="https://www.pexels.com/@noor-mohammad-sowan-944251072"><img src="assets/btn-pexels.svg" height="46" alt="Pexels"></a>
 </p>
 
 <p align="center">

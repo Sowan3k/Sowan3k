@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 150" width="880" height="150" role="img" aria-labelledby="t d">
+<title id="t">Say hello</title>
+<desc id="d">Email nurmohammadsowan119@gmail.com. Dhaka, UTC+6. Open to relocation and remote work.</desc>
+<defs>
+<clipPath id="card"><rect x="1" y="1" width="878" height="148" rx="15"/></clipPath>
+<radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#38e062" stop-opacity="0.10"/><stop offset="1" stop-color="#38e062" stop-opacity="0"/></radialGradient>
+<linearGradient id="pulse" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38e062" stop-opacity="0"/><stop offset="0.8" stop-color="#38e062"/><stop offset="1" stop-color="#b9f6ca"/></linearGradient>
+<pattern id="grid" x="532" y="30" width="13" height="13" patternUnits="userSpaceOnUse"><rect width="9" height="9" rx="2.16" fill="#1a1a1f"/></pattern></defs>
+<style>
+text { font-family: 'Times New Roman', Times, 'Liberation Serif', 'Nimbus Roman', serif; }
+.pulse { animation: pulse 2s ease-in-out infinite; }
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .3; } }
+
+.bob { animation: bob 1.9s steps(6, end) infinite alternate; }
+@keyframes bob { from { transform: translateY(0); } to { transform: translateY(78px); } }
+
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } .motion { display: none; } }
+</style>
+<rect x="1" y="1" width="878" height="148" rx="15" fill="#09090b"/>
+
+<rect x="1" y="1" width="878" height="148" rx="15" fill="none" stroke="#27272a"/>
+<text x="39" y="66" font-size="36" fill="#fafafa" font-weight="700" textLength="148.02" lengthAdjust="spacingAndGlyphs">Say hello.</text>
+<text x="40" y="97" font-size="17.5" fill="#38e062" textLength="266.74" lengthAdjust="spacingAndGlyphs">nurmohammadsowan119@gmail.com</text>
+<text x="40" y="121" font-size="14" fill="#a1a1aa" font-style="italic" textLength="301.6" lengthAdjust="spacingAndGlyphs">Dhaka, UTC+6. Open to relocation and remote work.</text>
+<rect x="532" y="30" width="312" height="91" fill="url(#grid)"/>
+<rect x="532" y="30" width="9" height="9" rx="2.16" fill="#26a641" class="bob" style="animation-delay:-0.00s"/>
+<rect x="545" y="30" width="9" height="9" rx="2.16" fill="#38e062" class="bob" style="animation-delay:-0.17s"/>
+<rect x="558" y="30" width="9" height="9" rx="2.16" fill="#38e062" class="bob" style="animation-delay:-0.34s"/>
+<rect x="571" y="30" width="9" height="9" rx="2.16" fill="#26a641" class="bob" style="animation-delay:-0.51s"/>
+<rect x="584" y="30" width="9" height="9" rx="2.16" fill="#38e062" class="bob" style="animation-delay:-0.68s"/>
+<rect x="597" y="30" width="9" height="9" rx="2.16" fill="#38e062" class="bob" style="animation-delay:-0.85s"/>
+<rect x="610" y="30" width="9" height="9" rx="2.16" fill="#26a641" class="bob" style="animation-delay:-1.02s"/>
+<rect x="623" y="30" width="9" height="9" rx="2.16" fill="#38e062" class="bob" style="animation-delay:-1.19s"/>
+<rect x="636" y="30" width="9" height="9" rx="2.16" fill="#38e062" class="bob" style="animation-delay:-1.36s"/>
+<rect x="649" y="30" width="9" height="9" rx="2.16" fill="#26a641" class="bob" style="animation-delay:-1.53s"/>
+<rect x="662" y="30" width="9" height="9" rx="2.16" fill="#38e062" class="bob" style="animation-delay:-1.70s"/>
+<rect x="675" y="30" width="9" height="9" rx="2.16" fill="#38e062" class="bob" style="animation-delay:-1.87s"/>
+<rect x="688" y="30" width="9" height="9" rx="2.16" fill="#26a641" class="bob" style="animation-delay:-2.04s"/>
+<rect x="701" y="30" width="9" height="9" rx="2.16" fill="#38e062" class="bob" style="animation-delay:-2.21s"/>
+<rect x="714" y="30" width="9" height="9" rx="2.16" fill="#38e062" class="bob" style="animation-delay:-2.38s"/>
+<rect x="727" y="30" width="9" height="9" rx="2.16" fill="#26a641" class="bob" style="animation-delay:-2.55s"/>
+<rect x="740" y="30" width="9" height="9" rx="2.16" fill="#38e062" class="bob" style="animation-delay:-2.72s"/>
+<rect x="753" y="30" width="9" height="9" rx="2.16" fill="#38e062" class="bob" style="animation-delay:-2.89s"/>
+<rect x="766" y="30" width="9" height="9" rx="2.16" fill="#26a641" class="bob" style="animation-delay:-3.06s"/>
+<rect x="779" y="30" width="9" height="9" rx="2.16" fill="#38e062" class="bob" style="animation-delay:-3.23s"/>
+<rect x="792" y="30" width="9" height="9" rx="2.16" fill="#38e062" class="bob" style="animation-delay:-3.40s"/>
+<rect x="805" y="30" width="9" height="9" rx="2.16" fill="#26a641" class="bob" style="animation-delay:-3.57s"/>
+<rect x="818" y="30" width="9" height="9" rx="2.16" fill="#38e062" class="bob" style="animation-delay:-3.74s"/>
+<rect x="831" y="30" width="9" height="9" rx="2.16" fill="#38e062" class="bob" style="animation-delay:-3.91s"/>
+</svg>
