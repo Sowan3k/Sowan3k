@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 330" width="880" height="330" role="img" aria-labelledby="title desc">
+  <title id="title">BahasaBot, a Malay language learning platform</title>
+  <desc id="desc">Final-year project, Silver Award at PIXEL 2026. A RAG chatbot, a course generator and an adaptive quiz. A repeat course dropped from about 78 seconds to about 280 milliseconds. Projected cost about 0.11 US dollars per active user per month. In-app rating 4.3 out of 5 from 30 users. 46 of 46 functional tests passed.</desc>
+
+  <defs>
+    <clipPath id="card"><rect x="1" y="1" width="878" height="328" rx="16"/></clipPath>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#6cc7e6" stop-opacity="0.11"/>
+      <stop offset="1" stop-color="#6cc7e6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+    .label { font-size: 11.5px; letter-spacing: 2.2px; fill: #f2b34a; }
+    .chip { font-size: 10.5px; letter-spacing: 1.6px; fill: #7fd18b; text-anchor: middle; }
+    .title { font-size: 34px; font-weight: 700; letter-spacing: -0.8px; fill: #e8edf4; }
+    .lead { font-size: 15px; fill: #c3ccd9; }
+    .lead2 { font-size: 15px; fill: #8a96a8; }
+    .stage { font-size: 13.5px; font-weight: 600; fill: #e8edf4; }
+    .tool { font-size: 10.5px; fill: #8a96a8; }
+    .big { font-size: 24px; font-weight: 700; letter-spacing: -0.4px; fill: #e8edf4; }
+    .cap { font-size: 10.5px; fill: #8a96a8; }
+    .box { fill: #0f1520; stroke: #2b3549; stroke-width: 1.2; }
+    .dot { fill: #6cc7e6; animation: dot 1.4s ease-in-out infinite; }
+    .dot2 { animation-delay: 0.2s; } .dot3 { animation-delay: 0.4s; }
+    .live { fill: #7fd18b; animation: live 2s ease-in-out infinite; }
+    .bar { fill: #f2b34a; transform-origin: 40px 0; animation: shrink 6s cubic-bezier(.6,0,.2,1) infinite; }
+
+    @keyframes dot { 0%, 60%, 100% { opacity: 0.25; } 30% { opacity: 1; } }
+    @keyframes live { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+    @keyframes shrink {
+      0%, 22% { transform: scaleX(1); }
+      42%, 88% { transform: scaleX(0.03); }
+      100% { transform: scaleX(1); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .dot, .live, .bar { animation: none; }
+      .bar { transform: scaleX(0.03); }
+    }
+  </style>
+
+  <rect x="1" y="1" width="878" height="328" rx="16" fill="#0b0f17"/>
+  <g clip-path="url(#card)"><circle cx="820" cy="0" r="260" fill="url(#glow)"/></g>
+  <rect x="1" y="1" width="878" height="328" rx="16" fill="none" stroke="#212a3a"/>
+
+  <text class="mono label" x="40" y="48">FINAL-YEAR PROJECT · SILVER AWARD, PIXEL 2026</text>
+  <rect x="722" y="32" width="118" height="24" rx="12" fill="#0f1a14" stroke="#28543a"/>
+  <circle class="live" cx="739" cy="44" r="3"/>
+  <text class="mono chip" x="790" y="48">LIVE DEMO</text>
+
+  <text class="sans title" x="39" y="96">BahasaBot</text>
+  <text class="sans lead" x="40" y="126">Malay language learning platform for international students</text>
+  <text class="sans lead2" x="40" y="148">at Malaysian public universities.</text>
+
+  <!-- features -->
+  <rect class="box" x="40" y="172" width="256" height="60" rx="10"/>
+  <rect class="box" x="312" y="172" width="256" height="60" rx="10"/>
+  <rect class="box" x="584" y="172" width="256" height="60" rx="10"/>
+
+  <text class="sans stage" x="54" y="197">RAG chatbot</text>
+  <circle class="dot" cx="262" cy="192" r="2.6"/>
+  <circle class="dot dot2" cx="271" cy="192" r="2.6"/>
+  <circle class="dot dot3" cx="280" cy="192" r="2.6"/>
+  <text class="mono tool" x="54" y="216">LangChain · pgvector · SSE</text>
+
+  <text class="sans stage" x="326" y="197">Course generator</text>
+  <text class="mono tool" x="326" y="216">concurrent Gemini calls, cached</text>
+
+  <text class="sans stage" x="598" y="197">Adaptive quiz</text>
+  <text class="mono tool" x="598" y="216">BPS-1 to BPS-4, last 3 attempts</text>
+
+  <!-- metrics -->
+  <path d="M40 254 H840" stroke="#1a2230"/>
+  <text class="sans big" x="40" y="287" style="fill:#f2b34a">78 s → 280 ms</text>
+  <text class="mono cap" x="40" y="306">repeat course generation</text>
+  <rect x="40" y="313" width="180" height="3" rx="1.5" fill="#1a2230"/>
+  <rect class="bar" x="40" y="313" width="180" height="3" rx="1.5"/>
+
+  <text class="sans big" x="270" y="287">~$0.11</text>
+  <text class="mono cap" x="270" y="306">per active user a month (est.)</text>
+  <text class="sans big" x="480" y="287">4.3 / 5</text>
+  <text class="mono cap" x="480" y="306">in-app rating, 30 users</text>
+  <text class="sans big" x="670" y="287">46 / 46</text>
+  <text class="mono cap" x="670" y="306">functional tests passed</text>
+</svg>
