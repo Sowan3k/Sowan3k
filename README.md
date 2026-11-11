@@ -1,6 +1,6 @@
 <p align="center">
   <picture>
-    <source media="(max-width: 640px)" srcset="assets/hero-narrow.svg">
+    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Sowan3k/Sowan3k/main/assets/hero-narrow.svg">
     <img src="assets/hero.svg" width="100%" alt="Noor Mohammad Sowan. Software engineer in Dhaka, open to AI engineering roles. I build AI automation and the full-stack systems around it. A contribution graph whose squares spell SOWAN.">
   </picture>
 </p>
@@ -14,7 +14,7 @@
 
 <p>
   <picture>
-    <source media="(max-width: 640px)" srcset="assets/section-about-narrow.svg">
+    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Sowan3k/Sowan3k/main/assets/section-about-narrow.svg">
     <img src="assets/section-about.svg" width="100%" alt="About">
   </picture>
 </p>
@@ -29,14 +29,14 @@ I am looking for AI engineering and automation work, and I am open to relocating
 
 <p>
   <picture>
-    <source media="(max-width: 640px)" srcset="assets/section-build-narrow.svg">
+    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Sowan3k/Sowan3k/main/assets/section-build-narrow.svg">
     <img src="assets/section-build.svg" width="100%" alt="How I build">
   </picture>
 </p>
 
 <p align="center">
   <picture>
-    <source media="(max-width: 640px)" srcset="assets/method-narrow.svg">
+    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Sowan3k/Sowan3k/main/assets/method-narrow.svg">
     <img src="assets/method.svg" width="100%" alt="How I build, in six steps: requirements, rules in CLAUDE.md, phases in PHASES.md, build with Claude Code, log in STATUS.md and DECISIONS.md, then test in CI and ship.">
   </picture>
 </p>
@@ -45,7 +45,7 @@ I write things down before I build them. The requirements come first, then a sho
 
 <p>
   <picture>
-    <source media="(max-width: 640px)" srcset="assets/section-featured-narrow.svg">
+    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Sowan3k/Sowan3k/main/assets/section-featured-narrow.svg">
     <img src="assets/section-featured.svg" width="100%" alt="Featured">
   </picture>
 </p>
@@ -53,7 +53,7 @@ I write things down before I build them. The requirements come first, then a sho
 <p align="center">
   <a href="https://github.com/Sowan3k/AI-Powered-Document-Intelligence-System">
     <picture>
-      <source media="(max-width: 640px)" srcset="assets/docintel-narrow.svg">
+      <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Sowan3k/Sowan3k/main/assets/docintel-narrow.svg">
       <img src="assets/docintel.svg" width="100%" alt="DocIntel. A scan line passes over an invoice and eight fields turn green. Pipeline: ingest, OCR, extract, validate, review and search. All fields correct on 91 of 91 synthetic invoices, 439 tests in CI, 12 of 12 planted errors caught.">
     </picture>
   </a>
@@ -66,7 +66,7 @@ I write things down before I build them. The requirements come first, then a sho
 <p align="center">
   <a href="https://bahasa-bot.vercel.app">
     <picture>
-      <source media="(max-width: 640px)" srcset="assets/bahasabot-narrow.svg">
+      <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Sowan3k/Sowan3k/main/assets/bahasabot-narrow.svg">
       <img src="assets/bahasabot.svg" width="100%" alt="BahasaBot. Two rows of squares race: a new course takes 78 seconds, the same topic again takes 280 milliseconds. RAG chatbot, course generator and adaptive quiz. In-app rating 4.3 out of 5 from 30 users.">
     </picture>
   </a>
@@ -78,7 +78,7 @@ I write things down before I build them. The requirements come first, then a sho
 
 <p>
   <picture>
-    <source media="(max-width: 640px)" srcset="assets/section-more-narrow.svg">
+    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Sowan3k/Sowan3k/main/assets/section-more-narrow.svg">
     <img src="assets/section-more.svg" width="100%" alt="More builds">
   </picture>
 </p>
@@ -103,14 +103,14 @@ The n8n agent from my internship. It covered five connected systems and three bu
 
 <p>
   <picture>
-    <source media="(max-width: 640px)" srcset="assets/section-stack-narrow.svg">
+    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Sowan3k/Sowan3k/main/assets/section-stack-narrow.svg">
     <img src="assets/section-stack.svg" width="100%" alt="Stack">
   </picture>
 </p>
 
 <p align="center">
   <picture>
-    <source media="(max-width: 640px)" srcset="assets/stack-narrow.svg">
+    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Sowan3k/Sowan3k/main/assets/stack-narrow.svg">
     <img src="assets/stack.svg" width="100%" alt="A grid of tools against builds. TypeScript, Next.js and Tailwind CSS each appear in five builds, PostgreSQL and Vercel in four, and Python, FastAPI, SQLAlchemy, Docker, Render and GitHub Actions in three.">
   </picture>
 </p>
@@ -119,7 +119,7 @@ Rows are tools and columns are things I built. A lit square means that tool is i
 
 <p>
   <picture>
-    <source media="(max-width: 640px)" srcset="assets/section-github-narrow.svg">
+    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Sowan3k/Sowan3k/main/assets/section-github-narrow.svg">
     <img src="assets/section-github.svg" width="100%" alt="GitHub">
   </picture>
 </p>
@@ -144,7 +144,7 @@ This is the real contribution graph. The one at the top of the page is a drawing
 
 <p align="center">
   <picture>
-    <source media="(max-width: 640px)" srcset="assets/footer-narrow.svg">
+    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Sowan3k/Sowan3k/main/assets/footer-narrow.svg">
     <img src="assets/footer.svg" width="100%" alt="Say hello. nurmohammadsowan119@gmail.com. Dhaka, UTC+6. Open to relocation and remote work.">
   </picture>
 </p>
