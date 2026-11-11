@@ -1,0 +1,341 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 1090" width="440" height="1090" role="img" aria-labelledby="t d">
+<title id="t">Tools by build</title>
+<desc id="d">A grid of tools against builds. DocIntel: Python, TypeScript, Gemini API, pgvector, Tesseract · OpenCV, Next.js · React, Tailwind CSS, FastAPI, PostgreSQL, SQLAlchemy, Supabase, pytest, GitHub Actions, Docker, Vercel, Render. BahasaBot: Python, TypeScript, Gemini API, LangChain, pgvector, Next.js · React, Tailwind CSS, FastAPI, PostgreSQL, SQLAlchemy, Redis, Docker, Vercel, Render, Sentry. My Bibi: Python, TypeScript, Ollama, Next.js · React, Tailwind CSS, FastAPI, SQLAlchemy, SQLite, Docker. Vindeshi Express: TypeScript, Next.js · React, Tailwind CSS, PostgreSQL, Prisma, Vitest · Playwright, GitHub Actions, Vercel. Evently: TypeScript, Next.js · React, Tailwind CSS, PostgreSQL, Prisma, Vercel. Grab demo: JavaScript, Node.js · Express, WebSocket, Render. Virtual Zara: JavaScript, n8n, OpenAI API. ChargeWatch: Kotlin, Android SDK, GitHub Actions.</desc>
+<defs>
+<clipPath id="card"><rect x="1" y="1" width="438" height="1088" rx="15"/></clipPath>
+<radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#38e062" stop-opacity="0.10"/><stop offset="1" stop-color="#38e062" stop-opacity="0"/></radialGradient>
+<linearGradient id="pulse" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38e062" stop-opacity="0"/><stop offset="0.8" stop-color="#38e062"/><stop offset="1" stop-color="#b9f6ca"/></linearGradient>
+</defs>
+<style>
+text { font-family: 'Times New Roman', Times, 'Liberation Serif', 'Nimbus Roman', serif; }
+.pulse { animation: pulse 2s ease-in-out infinite; }
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .3; } }
+
+.on { fill: #26a641; transform-box: fill-box; transform-origin: center; animation: pop .45s cubic-bezier(.2,1.5,.4,1) backwards, col 16s linear infinite; }
+@keyframes pop { 0% { opacity: 0; transform: scale(.2); } 60% { opacity: 1; transform: scale(1.15); } 100% { opacity: 1; transform: scale(1); } }
+@keyframes col { 0%, 12.5%, 100% { fill: #26a641; } 1.5%, 10% { fill: #7df59b; } }
+.hd { animation: hd 16s linear infinite; }
+@keyframes hd { 0%, 12.5%, 100% { fill: #a1a1aa; } 1.5%, 10% { fill: #38e062; } }
+
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } .motion { display: none; } }
+</style>
+<rect x="1" y="1" width="438" height="1088" rx="15" fill="#09090b"/>
+<g clip-path="url(#card)"><circle cx="380" cy="0" r="272" fill="url(#glow)"/></g>
+<rect x="1" y="1" width="438" height="1088" rx="15" fill="none" stroke="#27272a"/>
+<text x="24" y="46" font-size="11.5" fill="#38e062" font-weight="700" letter-spacing="2.2" textLength="127.95" lengthAdjust="spacingAndGlyphs">TOOLS BY BUILD</text>
+<g transform="translate(204.5 164) rotate(-52)"><text x="0" y="0" font-size="14" fill="#a1a1aa" font-style="italic" textLength="48.98" lengthAdjust="spacingAndGlyphs" class="hd" style="animation-delay:0s">DocIntel</text></g>
+<g transform="translate(228.5 164) rotate(-52)"><text x="0" y="0" font-size="14" fill="#a1a1aa" font-style="italic" textLength="61.44" lengthAdjust="spacingAndGlyphs" class="hd" style="animation-delay:2s">BahasaBot</text></g>
+<g transform="translate(252.5 164) rotate(-52)"><text x="0" y="0" font-size="14" fill="#a1a1aa" font-style="italic" textLength="95.26" lengthAdjust="spacingAndGlyphs" class="hd" style="animation-delay:4s">Vindeshi Express</text></g>
+<g transform="translate(276.5 164) rotate(-52)"><text x="0" y="0" font-size="14" fill="#a1a1aa" font-style="italic" textLength="75.96" lengthAdjust="spacingAndGlyphs" class="hd" style="animation-delay:6s">ChargeWatch</text></g>
+<g transform="translate(300.5 164) rotate(-52)"><text x="0" y="0" font-size="14" fill="#a1a1aa" font-style="italic" textLength="41.97" lengthAdjust="spacingAndGlyphs" class="hd" style="animation-delay:8s">Evently</text></g>
+<g transform="translate(324.5 164) rotate(-52)"><text x="0" y="0" font-size="14" fill="#a1a1aa" font-style="italic" textLength="44.71" lengthAdjust="spacingAndGlyphs" class="hd" style="animation-delay:10s">My Bibi</text></g>
+<g transform="translate(348.5 164) rotate(-52)"><text x="0" y="0" font-size="14" fill="#a1a1aa" font-style="italic" textLength="63.38" lengthAdjust="spacingAndGlyphs" class="hd" style="animation-delay:12s">Grab demo</text></g>
+<g transform="translate(372.5 164) rotate(-52)"><text x="0" y="0" font-size="14" fill="#a1a1aa" font-style="italic" textLength="69.36" lengthAdjust="spacingAndGlyphs" class="hd" style="animation-delay:14s">Virtual Zara</text></g>
+<text x="186" y="190.5" font-size="10.5" fill="#38e062" font-weight="700" letter-spacing="1.8" text-anchor="end" textLength="82.71" lengthAdjust="spacingAndGlyphs">LANGUAGES</text>
+<text x="186" y="215.5" font-size="15" fill="#d4d4d8" text-anchor="end" textLength="42.51" lengthAdjust="spacingAndGlyphs">Python</text>
+<rect x="198" y="200" width="17" height="17" rx="4.08" class="on" style="animation-delay:0.32s,3s"/>
+<rect x="222" y="200" width="17" height="17" rx="4.08" class="on" style="animation-delay:0.48s,5s"/>
+<rect x="246" y="200" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="270" y="200" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="294" y="200" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="318" y="200" width="17" height="17" rx="4.08" class="on" style="animation-delay:1.12s,13s"/>
+<rect x="342" y="200" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="366" y="200" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<text x="393" y="215.5" font-size="12.5" fill="#71717a" textLength="6.25" lengthAdjust="spacingAndGlyphs">3</text>
+<text x="186" y="239.5" font-size="15" fill="#d4d4d8" text-anchor="end" textLength="65.6" lengthAdjust="spacingAndGlyphs">TypeScript</text>
+<rect x="198" y="224" width="17" height="17" rx="4.08" class="on" style="animation-delay:0.34s,3s"/>
+<rect x="222" y="224" width="17" height="17" rx="4.08" class="on" style="animation-delay:0.50s,5s"/>
+<rect x="246" y="224" width="17" height="17" rx="4.08" class="on" style="animation-delay:0.66s,7s"/>
+<rect x="270" y="224" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="294" y="224" width="17" height="17" rx="4.08" class="on" style="animation-delay:0.98s,11s"/>
+<rect x="318" y="224" width="17" height="17" rx="4.08" class="on" style="animation-delay:1.14s,13s"/>
+<rect x="342" y="224" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="366" y="224" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<text x="393" y="239.5" font-size="12.5" fill="#71717a" textLength="6.25" lengthAdjust="spacingAndGlyphs">5</text>
+<text x="186" y="263.5" font-size="15" fill="#d4d4d8" text-anchor="end" textLength="62.48" lengthAdjust="spacingAndGlyphs">JavaScript</text>
+<rect x="198" y="248" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="222" y="248" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="246" y="248" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="270" y="248" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="294" y="248" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="318" y="248" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="342" y="248" width="17" height="17" rx="4.08" class="on" style="animation-delay:1.32s,15s"/>
+<rect x="366" y="248" width="17" height="17" rx="4.08" class="on" style="animation-delay:1.48s,17s"/>
+<text x="393" y="263.5" font-size="12.5" fill="#71717a" textLength="6.25" lengthAdjust="spacingAndGlyphs">2</text>
+<text x="186" y="287.5" font-size="15" fill="#d4d4d8" text-anchor="end" textLength="38.33" lengthAdjust="spacingAndGlyphs">Kotlin</text>
+<rect x="198" y="272" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="222" y="272" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="246" y="272" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="270" y="272" width="17" height="17" rx="4.08" class="on" style="animation-delay:0.86s,9s"/>
+<rect x="294" y="272" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="318" y="272" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="342" y="272" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="366" y="272" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<text x="393" y="287.5" font-size="12.5" fill="#71717a" textLength="6.25" lengthAdjust="spacingAndGlyphs">1</text>
+<text x="186" y="310.5" font-size="10.5" fill="#38e062" font-weight="700" letter-spacing="1.8" text-anchor="end" textLength="142.81" lengthAdjust="spacingAndGlyphs">AI AND AUTOMATION</text>
+<text x="186" y="335.5" font-size="15" fill="#d4d4d8" text-anchor="end" textLength="72.09" lengthAdjust="spacingAndGlyphs">Gemini API</text>
+<rect x="198" y="320" width="17" height="17" rx="4.08" class="on" style="animation-delay:0.42s,3s"/>
+<rect x="222" y="320" width="17" height="17" rx="4.08" class="on" style="animation-delay:0.58s,5s"/>
+<rect x="246" y="320" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="270" y="320" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="294" y="320" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="318" y="320" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="342" y="320" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="366" y="320" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<text x="393" y="335.5" font-size="12.5" fill="#71717a" textLength="6.25" lengthAdjust="spacingAndGlyphs">2</text>
+<text x="186" y="359.5" font-size="15" fill="#d4d4d8" text-anchor="end" textLength="66.65" lengthAdjust="spacingAndGlyphs">LangChain</text>
+<rect x="198" y="344" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="222" y="344" width="17" height="17" rx="4.08" class="on" style="animation-delay:0.60s,5s"/>
+<rect x="246" y="344" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="270" y="344" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="294" y="344" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="318" y="344" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="342" y="344" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="366" y="344" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<text x="393" y="359.5" font-size="12.5" fill="#71717a" textLength="6.25" lengthAdjust="spacingAndGlyphs">1</text>
+<text x="186" y="383.5" font-size="15" fill="#d4d4d8" text-anchor="end" textLength="52.48" lengthAdjust="spacingAndGlyphs">pgvector</text>
+<rect x="198" y="368" width="17" height="17" rx="4.08" class="on" style="animation-delay:0.46s,3s"/>
+<rect x="222" y="368" width="17" height="17" rx="4.08" class="on" style="animation-delay:0.62s,5s"/>
+<rect x="246" y="368" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="270" y="368" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="294" y="368" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="318" y="368" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="342" y="368" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="366" y="368" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<text x="393" y="383.5" font-size="12.5" fill="#71717a" textLength="6.25" lengthAdjust="spacingAndGlyphs">2</text>
+<text x="186" y="407.5" font-size="15" fill="#d4d4d8" text-anchor="end" textLength="121.41" lengthAdjust="spacingAndGlyphs">Tesseract · OpenCV</text>
+<rect x="198" y="392" width="17" height="17" rx="4.08" class="on" style="animation-delay:0.48s,3s"/>
+<rect x="222" y="392" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="246" y="392" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="270" y="392" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="294" y="392" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="318" y="392" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="342" y="392" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="366" y="392" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<text x="393" y="407.5" font-size="12.5" fill="#71717a" textLength="6.25" lengthAdjust="spacingAndGlyphs">1</text>
+<text x="186" y="431.5" font-size="15" fill="#d4d4d8" text-anchor="end" textLength="44.15" lengthAdjust="spacingAndGlyphs">Ollama</text>
+<rect x="198" y="416" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="222" y="416" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="246" y="416" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="270" y="416" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="294" y="416" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="318" y="416" width="17" height="17" rx="4.08" class="on" style="animation-delay:1.30s,13s"/>
+<rect x="342" y="416" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="366" y="416" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<text x="393" y="431.5" font-size="12.5" fill="#71717a" textLength="6.25" lengthAdjust="spacingAndGlyphs">1</text>
+<text x="186" y="455.5" font-size="15" fill="#d4d4d8" text-anchor="end" textLength="22.5" lengthAdjust="spacingAndGlyphs">n8n</text>
+<rect x="198" y="440" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="222" y="440" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="246" y="440" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="270" y="440" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="294" y="440" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="318" y="440" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="342" y="440" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="366" y="440" width="17" height="17" rx="4.08" class="on" style="animation-delay:1.64s,17s"/>
+<text x="393" y="455.5" font-size="12.5" fill="#71717a" textLength="6.25" lengthAdjust="spacingAndGlyphs">1</text>
+<text x="186" y="479.5" font-size="15" fill="#d4d4d8" text-anchor="end" textLength="75.41" lengthAdjust="spacingAndGlyphs">OpenAI API</text>
+<rect x="198" y="464" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="222" y="464" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="246" y="464" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="270" y="464" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="294" y="464" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="318" y="464" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="342" y="464" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="366" y="464" width="17" height="17" rx="4.08" class="on" style="animation-delay:1.66s,17s"/>
+<text x="393" y="479.5" font-size="12.5" fill="#71717a" textLength="6.25" lengthAdjust="spacingAndGlyphs">1</text>
+<text x="186" y="502.5" font-size="10.5" fill="#38e062" font-weight="700" letter-spacing="1.8" text-anchor="end" textLength="163.72" lengthAdjust="spacingAndGlyphs">FRONTEND AND MOBILE</text>
+<text x="186" y="527.5" font-size="15" fill="#d4d4d8" text-anchor="end" textLength="89.55" lengthAdjust="spacingAndGlyphs">Next.js · React</text>
+<rect x="198" y="512" width="17" height="17" rx="4.08" class="on" style="animation-delay:0.58s,3s"/>
+<rect x="222" y="512" width="17" height="17" rx="4.08" class="on" style="animation-delay:0.74s,5s"/>
+<rect x="246" y="512" width="17" height="17" rx="4.08" class="on" style="animation-delay:0.90s,7s"/>
+<rect x="270" y="512" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="294" y="512" width="17" height="17" rx="4.08" class="on" style="animation-delay:1.22s,11s"/>
+<rect x="318" y="512" width="17" height="17" rx="4.08" class="on" style="animation-delay:1.38s,13s"/>
+<rect x="342" y="512" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="366" y="512" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<text x="393" y="527.5" font-size="12.5" fill="#71717a" textLength="6.25" lengthAdjust="spacingAndGlyphs">5</text>
+<text x="186" y="551.5" font-size="15" fill="#d4d4d8" text-anchor="end" textLength="83.55" lengthAdjust="spacingAndGlyphs">Tailwind CSS</text>
+<rect x="198" y="536" width="17" height="17" rx="4.08" class="on" style="animation-delay:0.60s,3s"/>
+<rect x="222" y="536" width="17" height="17" rx="4.08" class="on" style="animation-delay:0.76s,5s"/>
+<rect x="246" y="536" width="17" height="17" rx="4.08" class="on" style="animation-delay:0.92s,7s"/>
+<rect x="270" y="536" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="294" y="536" width="17" height="17" rx="4.08" class="on" style="animation-delay:1.24s,11s"/>
+<rect x="318" y="536" width="17" height="17" rx="4.08" class="on" style="animation-delay:1.40s,13s"/>
+<rect x="342" y="536" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="366" y="536" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<text x="393" y="551.5" font-size="12.5" fill="#71717a" textLength="6.25" lengthAdjust="spacingAndGlyphs">5</text>
+<text x="186" y="575.5" font-size="15" fill="#d4d4d8" text-anchor="end" textLength="83.75" lengthAdjust="spacingAndGlyphs">Android SDK</text>
+<rect x="198" y="560" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="222" y="560" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="246" y="560" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="270" y="560" width="17" height="17" rx="4.08" class="on" style="animation-delay:1.10s,9s"/>
+<rect x="294" y="560" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="318" y="560" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="342" y="560" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="366" y="560" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<text x="393" y="575.5" font-size="12.5" fill="#71717a" textLength="6.25" lengthAdjust="spacingAndGlyphs">1</text>
+<text x="186" y="598.5" font-size="10.5" fill="#38e062" font-weight="700" letter-spacing="1.8" text-anchor="end" textLength="136.92" lengthAdjust="spacingAndGlyphs">BACKEND AND DATA</text>
+<text x="186" y="623.5" font-size="15" fill="#d4d4d8" text-anchor="end" textLength="49.18" lengthAdjust="spacingAndGlyphs">FastAPI</text>
+<rect x="198" y="608" width="17" height="17" rx="4.08" class="on" style="animation-delay:0.66s,3s"/>
+<rect x="222" y="608" width="17" height="17" rx="4.08" class="on" style="animation-delay:0.82s,5s"/>
+<rect x="246" y="608" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="270" y="608" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="294" y="608" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="318" y="608" width="17" height="17" rx="4.08" class="on" style="animation-delay:1.46s,13s"/>
+<rect x="342" y="608" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="366" y="608" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<text x="393" y="623.5" font-size="12.5" fill="#71717a" textLength="6.25" lengthAdjust="spacingAndGlyphs">3</text>
+<text x="186" y="647.5" font-size="15" fill="#d4d4d8" text-anchor="end" textLength="73.34" lengthAdjust="spacingAndGlyphs">PostgreSQL</text>
+<rect x="198" y="632" width="17" height="17" rx="4.08" class="on" style="animation-delay:0.68s,3s"/>
+<rect x="222" y="632" width="17" height="17" rx="4.08" class="on" style="animation-delay:0.84s,5s"/>
+<rect x="246" y="632" width="17" height="17" rx="4.08" class="on" style="animation-delay:1.00s,7s"/>
+<rect x="270" y="632" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="294" y="632" width="17" height="17" rx="4.08" class="on" style="animation-delay:1.32s,11s"/>
+<rect x="318" y="632" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="342" y="632" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="366" y="632" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<text x="393" y="647.5" font-size="12.5" fill="#71717a" textLength="6.25" lengthAdjust="spacingAndGlyphs">4</text>
+<text x="186" y="671.5" font-size="15" fill="#d4d4d8" text-anchor="end" textLength="83.32" lengthAdjust="spacingAndGlyphs">SQLAlchemy</text>
+<rect x="198" y="656" width="17" height="17" rx="4.08" class="on" style="animation-delay:0.70s,3s"/>
+<rect x="222" y="656" width="17" height="17" rx="4.08" class="on" style="animation-delay:0.86s,5s"/>
+<rect x="246" y="656" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="270" y="656" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="294" y="656" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="318" y="656" width="17" height="17" rx="4.08" class="on" style="animation-delay:1.50s,13s"/>
+<rect x="342" y="656" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="366" y="656" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<text x="393" y="671.5" font-size="12.5" fill="#71717a" textLength="6.25" lengthAdjust="spacingAndGlyphs">3</text>
+<text x="186" y="695.5" font-size="15" fill="#d4d4d8" text-anchor="end" textLength="56.65" lengthAdjust="spacingAndGlyphs">Supabase</text>
+<rect x="198" y="680" width="17" height="17" rx="4.08" class="on" style="animation-delay:0.72s,3s"/>
+<rect x="222" y="680" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="246" y="680" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="270" y="680" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="294" y="680" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="318" y="680" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="342" y="680" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="366" y="680" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<text x="393" y="695.5" font-size="12.5" fill="#71717a" textLength="6.25" lengthAdjust="spacingAndGlyphs">1</text>
+<text x="186" y="719.5" font-size="15" fill="#d4d4d8" text-anchor="end" textLength="41.67" lengthAdjust="spacingAndGlyphs">Prisma</text>
+<rect x="198" y="704" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="222" y="704" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="246" y="704" width="17" height="17" rx="4.08" class="on" style="animation-delay:1.06s,7s"/>
+<rect x="270" y="704" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="294" y="704" width="17" height="17" rx="4.08" class="on" style="animation-delay:1.38s,11s"/>
+<rect x="318" y="704" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="342" y="704" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="366" y="704" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<text x="393" y="719.5" font-size="12.5" fill="#71717a" textLength="6.25" lengthAdjust="spacingAndGlyphs">2</text>
+<text x="186" y="743.5" font-size="15" fill="#d4d4d8" text-anchor="end" textLength="34.17" lengthAdjust="spacingAndGlyphs">Redis</text>
+<rect x="198" y="728" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="222" y="728" width="17" height="17" rx="4.08" class="on" style="animation-delay:0.92s,5s"/>
+<rect x="246" y="728" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="270" y="728" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="294" y="728" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="318" y="728" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="342" y="728" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="366" y="728" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<text x="393" y="743.5" font-size="12.5" fill="#71717a" textLength="6.25" lengthAdjust="spacingAndGlyphs">1</text>
+<text x="186" y="767.5" font-size="15" fill="#d4d4d8" text-anchor="end" textLength="43.33" lengthAdjust="spacingAndGlyphs">SQLite</text>
+<rect x="198" y="752" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="222" y="752" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="246" y="752" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="270" y="752" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="294" y="752" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="318" y="752" width="17" height="17" rx="4.08" class="on" style="animation-delay:1.58s,13s"/>
+<rect x="342" y="752" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="366" y="752" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<text x="393" y="767.5" font-size="12.5" fill="#71717a" textLength="6.25" lengthAdjust="spacingAndGlyphs">1</text>
+<text x="186" y="791.5" font-size="15" fill="#d4d4d8" text-anchor="end" textLength="106.23" lengthAdjust="spacingAndGlyphs">Node.js · Express</text>
+<rect x="198" y="776" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="222" y="776" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="246" y="776" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="270" y="776" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="294" y="776" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="318" y="776" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="342" y="776" width="17" height="17" rx="4.08" class="on" style="animation-delay:1.76s,15s"/>
+<rect x="366" y="776" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<text x="393" y="791.5" font-size="12.5" fill="#71717a" textLength="6.25" lengthAdjust="spacingAndGlyphs">1</text>
+<text x="186" y="815.5" font-size="15" fill="#d4d4d8" text-anchor="end" textLength="67.94" lengthAdjust="spacingAndGlyphs">WebSocket</text>
+<rect x="198" y="800" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="222" y="800" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="246" y="800" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="270" y="800" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="294" y="800" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="318" y="800" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="342" y="800" width="17" height="17" rx="4.08" class="on" style="animation-delay:1.78s,15s"/>
+<rect x="366" y="800" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<text x="393" y="815.5" font-size="12.5" fill="#71717a" textLength="6.25" lengthAdjust="spacingAndGlyphs">1</text>
+<text x="186" y="838.5" font-size="10.5" fill="#38e062" font-weight="700" letter-spacing="1.8" text-anchor="end" textLength="165.17" lengthAdjust="spacingAndGlyphs">TESTING AND DELIVERY</text>
+<text x="186" y="863.5" font-size="15" fill="#d4d4d8" text-anchor="end" textLength="35.83" lengthAdjust="spacingAndGlyphs">pytest</text>
+<rect x="198" y="848" width="17" height="17" rx="4.08" class="on" style="animation-delay:0.86s,3s"/>
+<rect x="222" y="848" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="246" y="848" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="270" y="848" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="294" y="848" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="318" y="848" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="342" y="848" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="366" y="848" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<text x="393" y="863.5" font-size="12.5" fill="#71717a" textLength="6.25" lengthAdjust="spacingAndGlyphs">1</text>
+<text x="186" y="887.5" font-size="15" fill="#d4d4d8" text-anchor="end" textLength="113.25" lengthAdjust="spacingAndGlyphs">Vitest · Playwright</text>
+<rect x="198" y="872" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="222" y="872" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="246" y="872" width="17" height="17" rx="4.08" class="on" style="animation-delay:1.20s,7s"/>
+<rect x="270" y="872" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="294" y="872" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="318" y="872" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="342" y="872" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="366" y="872" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<text x="393" y="887.5" font-size="12.5" fill="#71717a" textLength="6.25" lengthAdjust="spacingAndGlyphs">1</text>
+<text x="186" y="911.5" font-size="15" fill="#d4d4d8" text-anchor="end" textLength="94.58" lengthAdjust="spacingAndGlyphs">GitHub Actions</text>
+<rect x="198" y="896" width="17" height="17" rx="4.08" class="on" style="animation-delay:0.90s,3s"/>
+<rect x="222" y="896" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="246" y="896" width="17" height="17" rx="4.08" class="on" style="animation-delay:1.22s,7s"/>
+<rect x="270" y="896" width="17" height="17" rx="4.08" class="on" style="animation-delay:1.38s,9s"/>
+<rect x="294" y="896" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="318" y="896" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="342" y="896" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="366" y="896" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<text x="393" y="911.5" font-size="12.5" fill="#71717a" textLength="6.25" lengthAdjust="spacingAndGlyphs">3</text>
+<text x="186" y="935.5" font-size="15" fill="#d4d4d8" text-anchor="end" textLength="44.14" lengthAdjust="spacingAndGlyphs">Docker</text>
+<rect x="198" y="920" width="17" height="17" rx="4.08" class="on" style="animation-delay:0.92s,3s"/>
+<rect x="222" y="920" width="17" height="17" rx="4.08" class="on" style="animation-delay:1.08s,5s"/>
+<rect x="246" y="920" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="270" y="920" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="294" y="920" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="318" y="920" width="17" height="17" rx="4.08" class="on" style="animation-delay:1.72s,13s"/>
+<rect x="342" y="920" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="366" y="920" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<text x="393" y="935.5" font-size="12.5" fill="#71717a" textLength="6.25" lengthAdjust="spacingAndGlyphs">3</text>
+<text x="186" y="959.5" font-size="15" fill="#d4d4d8" text-anchor="end" textLength="38.31" lengthAdjust="spacingAndGlyphs">Vercel</text>
+<rect x="198" y="944" width="17" height="17" rx="4.08" class="on" style="animation-delay:0.94s,3s"/>
+<rect x="222" y="944" width="17" height="17" rx="4.08" class="on" style="animation-delay:1.10s,5s"/>
+<rect x="246" y="944" width="17" height="17" rx="4.08" class="on" style="animation-delay:1.26s,7s"/>
+<rect x="270" y="944" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="294" y="944" width="17" height="17" rx="4.08" class="on" style="animation-delay:1.58s,11s"/>
+<rect x="318" y="944" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="342" y="944" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="366" y="944" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<text x="393" y="959.5" font-size="12.5" fill="#71717a" textLength="6.25" lengthAdjust="spacingAndGlyphs">4</text>
+<text x="186" y="983.5" font-size="15" fill="#d4d4d8" text-anchor="end" textLength="43.32" lengthAdjust="spacingAndGlyphs">Render</text>
+<rect x="198" y="968" width="17" height="17" rx="4.08" class="on" style="animation-delay:0.96s,3s"/>
+<rect x="222" y="968" width="17" height="17" rx="4.08" class="on" style="animation-delay:1.12s,5s"/>
+<rect x="246" y="968" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="270" y="968" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="294" y="968" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="318" y="968" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="342" y="968" width="17" height="17" rx="4.08" class="on" style="animation-delay:1.92s,15s"/>
+<rect x="366" y="968" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<text x="393" y="983.5" font-size="12.5" fill="#71717a" textLength="6.25" lengthAdjust="spacingAndGlyphs">3</text>
+<text x="186" y="1007.5" font-size="15" fill="#d4d4d8" text-anchor="end" textLength="39.16" lengthAdjust="spacingAndGlyphs">Sentry</text>
+<rect x="198" y="992" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="222" y="992" width="17" height="17" rx="4.08" class="on" style="animation-delay:1.14s,5s"/>
+<rect x="246" y="992" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="270" y="992" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="294" y="992" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="318" y="992" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="342" y="992" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<rect x="366" y="992" width="17" height="17" rx="4.08" fill="#1a1a1f"/>
+<text x="393" y="1007.5" font-size="12.5" fill="#71717a" textLength="6.25" lengthAdjust="spacingAndGlyphs">1</text>
+<text x="24" y="1042" font-size="13" fill="#a1a1aa" font-style="italic" textLength="211.66" lengthAdjust="spacingAndGlyphs">Read off each project&#x27;s dependency files.</text>
+<text x="24" y="1060" font-size="13" fill="#a1a1aa" font-style="italic" textLength="234.34" lengthAdjust="spacingAndGlyphs">Virtual Zara comes from my internship letter.</text>
+</svg>

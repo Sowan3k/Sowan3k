@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 372" width="440" height="372" role="img" aria-labelledby="t d">
+<title id="t">How I build</title>
+<desc id="d">Six steps in order: requirements, rules in CLAUDE.md, phases in PHASES.md, build with Claude Code, log in STATUS.md and DECISIONS.md, then test in CI and ship.</desc>
+<defs>
+<clipPath id="card"><rect x="1" y="1" width="438" height="370" rx="15"/></clipPath>
+<radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#38e062" stop-opacity="0.10"/><stop offset="1" stop-color="#38e062" stop-opacity="0"/></radialGradient>
+<linearGradient id="pulse" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38e062" stop-opacity="0"/><stop offset="0.8" stop-color="#38e062"/><stop offset="1" stop-color="#b9f6ca"/></linearGradient>
+</defs>
+<style>
+text { font-family: 'Times New Roman', Times, 'Liberation Serif', 'Nimbus Roman', serif; }
+.pulse { animation: pulse 2s ease-in-out infinite; }
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .3; } }
+
+.pan { fill: #101013; stroke: #27272a; stroke-width: 1.2; animation: pan 7.0s linear infinite backwards; }
+.ic { fill: #26a641; animation: ic 7.0s linear infinite backwards; }
+@keyframes pan { 0% { stroke: #27272a; } 2%, 16% { stroke: #38e062; } 30%, 100% { stroke: #27272a; } }
+@keyframes ic { 0% { fill: #26a641; } 2%, 16% { fill: #b9f6ca; } 30%, 100% { fill: #26a641; } }
+.runner { animation: go 7.0s linear infinite; }
+@keyframes go { 0% { transform: translateX(0); opacity: 1; } 85% { transform: translateX(71px); opacity: 1; } 86%, 100% { transform: translateX(71px); opacity: 0; } }
+
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } .motion { display: none; } }
+</style>
+<rect x="1" y="1" width="438" height="370" rx="15" fill="#09090b"/>
+
+<rect x="1" y="1" width="438" height="370" rx="15" fill="none" stroke="#27272a"/>
+<text x="24" y="46" font-size="11.5" fill="#38e062" font-weight="700" letter-spacing="2.2" textLength="272.48" lengthAdjust="spacingAndGlyphs">SPEC FIRST, THEN PHASE BY PHASE</text>
+<rect class="pan" style="animation-delay:0.00s" x="51" y="75" width="58" height="58" rx="12"/>
+<rect x="59.5" y="83.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="65.5" y="83.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="71.5" y="83.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="77.5" y="83.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="83.5" y="83.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="89.5" y="83.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="95.5" y="83.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="59.5" y="89.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="95.5" y="89.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="59.5" y="95.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="71.5" y="95.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="77.5" y="95.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="83.5" y="95.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="95.5" y="95.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="59.5" y="101.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="95.5" y="101.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="59.5" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="71.5" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="77.5" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="83.5" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="95.5" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="59.5" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="95.5" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="59.5" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="65.5" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="71.5" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="77.5" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="83.5" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="89.5" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<rect x="95.5" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:0.00s"/>
+<text x="80" y="67" font-size="12.5" fill="#38e062" font-weight="700" font-style="italic" text-anchor="middle" textLength="12.5" lengthAdjust="spacingAndGlyphs">01</text>
+<text x="80" y="155" font-size="16.5" fill="#fafafa" font-weight="700" text-anchor="middle" textLength="98.69" lengthAdjust="spacingAndGlyphs">Requirements</text>
+<text x="80" y="174" font-size="13" fill="#a1a1aa" font-style="italic" text-anchor="middle" textLength="79.81" lengthAdjust="spacingAndGlyphs">what it must do</text>
+<rect class="pan" style="animation-delay:1.00s" x="191" y="75" width="58" height="58" rx="12"/>
+<rect x="211.5" y="83.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.00s"/>
+<rect x="217.5" y="83.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.00s"/>
+<rect x="223.5" y="83.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.00s"/>
+<rect x="205.5" y="89.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.00s"/>
+<rect x="229.5" y="89.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.00s"/>
+<rect x="205.5" y="95.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.00s"/>
+<rect x="229.5" y="95.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.00s"/>
+<rect x="199.5" y="101.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.00s"/>
+<rect x="205.5" y="101.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.00s"/>
+<rect x="211.5" y="101.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.00s"/>
+<rect x="217.5" y="101.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.00s"/>
+<rect x="223.5" y="101.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.00s"/>
+<rect x="229.5" y="101.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.00s"/>
+<rect x="235.5" y="101.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.00s"/>
+<rect x="199.5" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.00s"/>
+<rect x="205.5" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.00s"/>
+<rect x="211.5" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.00s"/>
+<rect x="223.5" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.00s"/>
+<rect x="229.5" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.00s"/>
+<rect x="235.5" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.00s"/>
+<rect x="199.5" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.00s"/>
+<rect x="205.5" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.00s"/>
+<rect x="211.5" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.00s"/>
+<rect x="223.5" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.00s"/>
+<rect x="229.5" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.00s"/>
+<rect x="235.5" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.00s"/>
+<rect x="199.5" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.00s"/>
+<rect x="205.5" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.00s"/>
+<rect x="211.5" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.00s"/>
+<rect x="217.5" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.00s"/>
+<rect x="223.5" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.00s"/>
+<rect x="229.5" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.00s"/>
+<rect x="235.5" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:1.00s"/>
+<text x="220" y="67" font-size="12.5" fill="#38e062" font-weight="700" font-style="italic" text-anchor="middle" textLength="12.5" lengthAdjust="spacingAndGlyphs">02</text>
+<text x="220" y="155" font-size="16.5" fill="#fafafa" font-weight="700" text-anchor="middle" textLength="39.42" lengthAdjust="spacingAndGlyphs">Rules</text>
+<text x="220" y="174" font-size="13" fill="#a1a1aa" font-style="italic" text-anchor="middle" textLength="69.7" lengthAdjust="spacingAndGlyphs">CLAUDE.md</text>
+<rect class="pan" style="animation-delay:2.00s" x="331" y="75" width="58" height="58" rx="12"/>
+<rect x="369.5" y="83.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.00s"/>
+<rect x="375.5" y="83.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.00s"/>
+<rect x="369.5" y="89.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.00s"/>
+<rect x="375.5" y="89.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.00s"/>
+<rect x="357.5" y="95.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.00s"/>
+<rect x="363.5" y="95.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.00s"/>
+<rect x="369.5" y="95.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.00s"/>
+<rect x="375.5" y="95.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.00s"/>
+<rect x="357.5" y="101.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.00s"/>
+<rect x="363.5" y="101.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.00s"/>
+<rect x="369.5" y="101.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.00s"/>
+<rect x="375.5" y="101.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.00s"/>
+<rect x="345.5" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.00s"/>
+<rect x="351.5" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.00s"/>
+<rect x="357.5" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.00s"/>
+<rect x="363.5" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.00s"/>
+<rect x="369.5" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.00s"/>
+<rect x="375.5" y="107.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.00s"/>
+<rect x="345.5" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.00s"/>
+<rect x="351.5" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.00s"/>
+<rect x="357.5" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.00s"/>
+<rect x="363.5" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.00s"/>
+<rect x="369.5" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.00s"/>
+<rect x="375.5" y="113.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.00s"/>
+<rect x="339.5" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.00s"/>
+<rect x="345.5" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.00s"/>
+<rect x="351.5" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.00s"/>
+<rect x="357.5" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.00s"/>
+<rect x="363.5" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.00s"/>
+<rect x="369.5" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.00s"/>
+<rect x="375.5" y="119.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:2.00s"/>
+<text x="360" y="67" font-size="12.5" fill="#38e062" font-weight="700" font-style="italic" text-anchor="middle" textLength="12.5" lengthAdjust="spacingAndGlyphs">03</text>
+<text x="360" y="155" font-size="16.5" fill="#fafafa" font-weight="700" text-anchor="middle" textLength="47.67" lengthAdjust="spacingAndGlyphs">Phases</text>
+<text x="360" y="174" font-size="13" fill="#a1a1aa" font-style="italic" text-anchor="middle" textLength="65.35" lengthAdjust="spacingAndGlyphs">PHASES.md</text>
+<rect class="pan" style="animation-delay:3.00s" x="51" y="227" width="58" height="58" rx="12"/>
+<rect x="71.5" y="241.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:3.00s"/>
+<rect x="83.5" y="241.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:3.00s"/>
+<rect x="65.5" y="247.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:3.00s"/>
+<rect x="89.5" y="247.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:3.00s"/>
+<rect x="59.5" y="253.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:3.00s"/>
+<rect x="95.5" y="253.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:3.00s"/>
+<rect x="65.5" y="259.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:3.00s"/>
+<rect x="89.5" y="259.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:3.00s"/>
+<rect x="71.5" y="265.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:3.00s"/>
+<rect x="83.5" y="265.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:3.00s"/>
+<text x="80" y="219" font-size="12.5" fill="#38e062" font-weight="700" font-style="italic" text-anchor="middle" textLength="12.5" lengthAdjust="spacingAndGlyphs">04</text>
+<text x="80" y="307" font-size="16.5" fill="#fafafa" font-weight="700" text-anchor="middle" textLength="38.53" lengthAdjust="spacingAndGlyphs">Build</text>
+<text x="80" y="326" font-size="13" fill="#a1a1aa" font-style="italic" text-anchor="middle" textLength="68.24" lengthAdjust="spacingAndGlyphs">Claude Code</text>
+<rect class="pan" style="animation-delay:4.00s" x="191" y="227" width="58" height="58" rx="12"/>
+<rect x="199.5" y="241.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:4.00s"/>
+<rect x="211.5" y="241.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:4.00s"/>
+<rect x="217.5" y="241.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:4.00s"/>
+<rect x="223.5" y="241.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:4.00s"/>
+<rect x="229.5" y="241.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:4.00s"/>
+<rect x="235.5" y="241.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:4.00s"/>
+<rect x="199.5" y="253.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:4.00s"/>
+<rect x="211.5" y="253.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:4.00s"/>
+<rect x="217.5" y="253.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:4.00s"/>
+<rect x="223.5" y="253.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:4.00s"/>
+<rect x="229.5" y="253.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:4.00s"/>
+<rect x="235.5" y="253.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:4.00s"/>
+<rect x="199.5" y="265.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:4.00s"/>
+<rect x="211.5" y="265.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:4.00s"/>
+<rect x="217.5" y="265.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:4.00s"/>
+<rect x="223.5" y="265.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:4.00s"/>
+<rect x="229.5" y="265.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:4.00s"/>
+<rect x="235.5" y="265.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:4.00s"/>
+<text x="220" y="219" font-size="12.5" fill="#38e062" font-weight="700" font-style="italic" text-anchor="middle" textLength="12.5" lengthAdjust="spacingAndGlyphs">05</text>
+<text x="220" y="307" font-size="16.5" fill="#fafafa" font-weight="700" text-anchor="middle" textLength="27.51" lengthAdjust="spacingAndGlyphs">Log</text>
+<text x="220" y="326" font-size="13" fill="#a1a1aa" font-style="italic" text-anchor="middle" textLength="118.81" lengthAdjust="spacingAndGlyphs">STATUS · DECISIONS</text>
+<rect class="pan" style="animation-delay:5.00s" x="331" y="227" width="58" height="58" rx="12"/>
+<rect x="375.5" y="241.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:5.00s"/>
+<rect x="369.5" y="247.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:5.00s"/>
+<rect x="375.5" y="247.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:5.00s"/>
+<rect x="339.5" y="253.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:5.00s"/>
+<rect x="363.5" y="253.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:5.00s"/>
+<rect x="369.5" y="253.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:5.00s"/>
+<rect x="339.5" y="259.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:5.00s"/>
+<rect x="345.5" y="259.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:5.00s"/>
+<rect x="357.5" y="259.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:5.00s"/>
+<rect x="363.5" y="259.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:5.00s"/>
+<rect x="345.5" y="265.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:5.00s"/>
+<rect x="351.5" y="265.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:5.00s"/>
+<rect x="357.5" y="265.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:5.00s"/>
+<rect x="351.5" y="271.5" width="5" height="5" rx="1.2" class="ic" style="animation-delay:5.00s"/>
+<text x="360" y="219" font-size="12.5" fill="#38e062" font-weight="700" font-style="italic" text-anchor="middle" textLength="12.5" lengthAdjust="spacingAndGlyphs">06</text>
+<text x="360" y="307" font-size="16.5" fill="#fafafa" font-weight="700" text-anchor="middle" textLength="66.34" lengthAdjust="spacingAndGlyphs">Test, ship</text>
+<text x="360" y="326" font-size="13" fill="#a1a1aa" font-style="italic" text-anchor="middle" textLength="79.78" lengthAdjust="spacingAndGlyphs">CI, then deploy</text>
+</svg>
