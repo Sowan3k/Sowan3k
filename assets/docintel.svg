@@ -3,32 +3,31 @@
   <desc id="desc">Reads invoices from PDFs, scans, phone photos, Excel and CSV. Pipeline: ingest, OCR, extract, validate, review and search. All fields correct on 91 of 91 synthetic invoices, 439 tests in CI with 95% coverage, 12 of 12 planted errors caught, about 0.0015 US dollars per invoice.</desc>
 
   <defs>
-    <clipPath id="card"><rect x="1" y="1" width="878" height="328" rx="16"/></clipPath>
+    <clipPath id="card"><rect x="1" y="1" width="878" height="328" rx="6"/></clipPath>
     <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#f2b34a" stop-opacity="0.12"/>
-      <stop offset="1" stop-color="#f2b34a" stop-opacity="0"/>
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="pulse" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#f2b34a" stop-opacity="0"/>
-      <stop offset="0.8" stop-color="#f2b34a"/>
-      <stop offset="1" stop-color="#fbe3b3"/>
+      <stop offset="0" stop-color="#606060" stop-opacity="0"/>
+      <stop offset="0.8" stop-color="#606060"/>
+      <stop offset="1" stop-color="#333333"/>
     </linearGradient>
     <clipPath id="track"><rect x="40" y="198" width="800" height="8"/></clipPath>
   </defs>
 
   <style>
-    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; }
-    .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
-    .label { font-size: 11.5px; letter-spacing: 2.2px; fill: #f2b34a; }
-    .chip { font-size: 10.5px; letter-spacing: 1.6px; fill: #7fd18b; text-anchor: middle; }
-    .title { font-size: 34px; font-weight: 700; letter-spacing: -0.8px; fill: #e8edf4; }
-    .lead { font-size: 15px; fill: #c3ccd9; }
-    .lead2 { font-size: 15px; fill: #8a96a8; }
-    .stage { font-size: 13.5px; font-weight: 600; fill: #e8edf4; }
-    .tool { font-size: 10.5px; fill: #8a96a8; }
-    .big { font-size: 24px; font-weight: 700; letter-spacing: -0.4px; fill: #e8edf4; }
-    .cap { font-size: 10.5px; fill: #8a96a8; }
-    .box { fill: #0f1520; stroke: #2b3549; stroke-width: 1.2; animation: box 6s linear infinite backwards; }
+    text { font-family: 'Times New Roman', Times, 'Liberation Serif', 'Nimbus Roman', serif; }
+    .label { font-size: 12.5px; font-weight: 700; letter-spacing: 2.6px; fill: #606060; }
+    .chip { font-size: 11.5px; font-weight: 700; letter-spacing: 1.8px; fill: #333333; text-anchor: middle; }
+    .title { font-size: 40px; font-weight: 700; letter-spacing: -0.4px; fill: #333333; }
+    .lead { font-size: 17.5px; fill: #333333; }
+    .lead2 { font-size: 17.5px; font-style: italic; fill: #666666; }
+    .stage { font-size: 15.5px; font-weight: 700; fill: #333333; }
+    .tool { font-size: 12.5px; font-style: italic; fill: #666666; }
+    .big { font-size: 28px; font-weight: 700; fill: #333333; }
+    .cap { font-size: 12.5px; fill: #666666; }
+    .box { fill: #f5f5f5; stroke: #d0d0d0; stroke-width: 1.2; animation: box 6s linear infinite backwards; }
     .d1 { animation-delay: 0s; } .d2 { animation-delay: 0.89s; } .d3 { animation-delay: 1.78s; }
     .d4 { animation-delay: 2.67s; } .d5 { animation-delay: 3.56s; }
     .runner { animation: run 6s linear infinite; }
@@ -39,9 +38,9 @@
       81%, 100% { transform: translateX(880px); opacity: 0; }
     }
     @keyframes box {
-      0% { stroke: #2b3549; }
-      3%, 18% { stroke: #f2b34a; }
-      34%, 100% { stroke: #2b3549; }
+      0% { stroke: #d0d0d0; }
+      3%, 18% { stroke: #333333; }
+      34%, 100% { stroke: #d0d0d0; }
     }
     @media (prefers-reduced-motion: reduce) {
       .box, .runner { animation: none; }
@@ -49,49 +48,49 @@
     }
   </style>
 
-  <rect x="1" y="1" width="878" height="328" rx="16" fill="#0b0f17"/>
+  <rect x="1" y="1" width="878" height="328" rx="6" fill="#f0f0f0"/>
   <g clip-path="url(#card)"><circle cx="820" cy="0" r="260" fill="url(#glow)"/></g>
-  <rect x="1" y="1" width="878" height="328" rx="16" fill="none" stroke="#212a3a"/>
+  <rect x="1" y="1" width="878" height="328" rx="6" fill="none" stroke="#d0d0d0"/>
 
-  <text class="mono label" x="40" y="48">FEATURED BUILD · NOVEMBER 2026</text>
-  <rect x="728" y="32" width="112" height="24" rx="12" fill="#0f1a14" stroke="#28543a"/>
-  <text class="mono chip" x="784" y="48">5-DAY BUILD</text>
+  <text class="label" x="40" y="48">FEATURED BUILD · NOVEMBER 2026</text>
+  <rect x="722" y="32" width="118" height="24" rx="5" fill="#e0e0e0" stroke="#c0c0c0"/>
+  <text class="chip" x="781" y="48.5">5-DAY BUILD</text>
 
-  <text class="sans title" x="39" y="96">DocIntel</text>
-  <text class="sans lead" x="40" y="126">Reads invoices from PDFs, scans, phone photos, Excel and CSV.</text>
-  <text class="sans lead2" x="40" y="148">Gemini reads the fields. Python checks every number.</text>
+  <text class="title" x="39" y="98">DocIntel</text>
+  <text class="lead" x="40" y="127">Reads invoices from PDFs, scans, phone photos, Excel and CSV.</text>
+  <text class="lead2" x="40" y="150">Gemini reads the fields. Python checks every number.</text>
 
   <!-- pipeline -->
-  <path d="M40 202 H840" stroke="#212a3a" stroke-width="2"/>
+  <path d="M40 202 H840" stroke="#d0d0d0" stroke-width="2"/>
   <g clip-path="url(#track)">
     <rect class="runner" x="-40" y="201" width="80" height="2" fill="url(#pulse)"/>
   </g>
 
-  <rect class="box d1" x="40" y="172" width="148" height="60" rx="10"/>
-  <rect class="box d2" x="203" y="172" width="148" height="60" rx="10"/>
-  <rect class="box d3" x="366" y="172" width="148" height="60" rx="10"/>
-  <rect class="box d4" x="529" y="172" width="148" height="60" rx="10"/>
-  <rect class="box d5" x="692" y="172" width="148" height="60" rx="10"/>
+  <rect class="box d1" x="40" y="172" width="148" height="60" rx="5"/>
+  <rect class="box d2" x="203" y="172" width="148" height="60" rx="5"/>
+  <rect class="box d3" x="366" y="172" width="148" height="60" rx="5"/>
+  <rect class="box d4" x="529" y="172" width="148" height="60" rx="5"/>
+  <rect class="box d5" x="692" y="172" width="148" height="60" rx="5"/>
 
-  <text class="sans stage" x="54" y="197">Ingest</text>
-  <text class="mono tool" x="54" y="216">PyMuPDF · OpenCV</text>
-  <text class="sans stage" x="217" y="197">OCR</text>
-  <text class="mono tool" x="217" y="216">Tesseract + vision</text>
-  <text class="sans stage" x="380" y="197">Extract</text>
-  <text class="mono tool" x="380" y="216">Gemini + evidence</text>
-  <text class="sans stage" x="543" y="197">Validate</text>
-  <text class="mono tool" x="543" y="216">11 rules in Decimal</text>
-  <text class="sans stage" x="706" y="197">Review, search</text>
-  <text class="mono tool" x="706" y="216">queue · pgvector</text>
+  <text class="stage" x="54" y="198">Ingest</text>
+  <text class="tool" x="54" y="217">PyMuPDF · OpenCV</text>
+  <text class="stage" x="217" y="198">OCR</text>
+  <text class="tool" x="217" y="217">Tesseract, vision</text>
+  <text class="stage" x="380" y="198">Extract</text>
+  <text class="tool" x="380" y="217">Gemini + evidence</text>
+  <text class="stage" x="543" y="198">Validate</text>
+  <text class="tool" x="543" y="217">11 Decimal rules</text>
+  <text class="stage" x="706" y="198">Review, search</text>
+  <text class="tool" x="706" y="217">queue · pgvector</text>
 
   <!-- metrics -->
-  <path d="M40 254 H840" stroke="#1a2230"/>
-  <text class="sans big" x="40" y="287" fill="#f2b34a" style="fill:#f2b34a">91 / 91</text>
-  <text class="mono cap" x="40" y="306">synthetic invoices, all fields</text>
-  <text class="sans big" x="250" y="287">439</text>
-  <text class="mono cap" x="250" y="306">tests in CI, 95% coverage</text>
-  <text class="sans big" x="460" y="287">12 / 12</text>
-  <text class="mono cap" x="460" y="306">planted errors caught</text>
-  <text class="sans big" x="670" y="287">~$0.0015</text>
-  <text class="mono cap" x="670" y="306">per invoice, paid tier</text>
+  <path d="M40 254 H840" stroke="#d0d0d0"/>
+  <text class="big" x="40" y="289">91 / 91</text>
+  <text class="cap" x="40" y="308">synthetic invoices correct</text>
+  <text class="big" x="250" y="289">439</text>
+  <text class="cap" x="250" y="308">tests in CI, 95% coverage</text>
+  <text class="big" x="460" y="289">12 / 12</text>
+  <text class="cap" x="460" y="308">planted errors caught</text>
+  <text class="big" x="670" y="289">~$0.0015</text>
+  <text class="cap" x="670" y="308">per invoice, paid tier</text>
 </svg>

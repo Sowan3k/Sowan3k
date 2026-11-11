@@ -3,30 +3,29 @@
   <desc id="desc">Final-year project, Silver Award at PIXEL 2026. A RAG chatbot, a course generator and an adaptive quiz. A repeat course dropped from about 78 seconds to about 280 milliseconds. Projected cost about 0.11 US dollars per active user per month. In-app rating 4.3 out of 5 from 30 users. 46 of 46 functional tests passed.</desc>
 
   <defs>
-    <clipPath id="card"><rect x="1" y="1" width="878" height="328" rx="16"/></clipPath>
+    <clipPath id="card"><rect x="1" y="1" width="878" height="328" rx="6"/></clipPath>
     <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#6cc7e6" stop-opacity="0.11"/>
-      <stop offset="1" stop-color="#6cc7e6" stop-opacity="0"/>
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
     </radialGradient>
   </defs>
 
   <style>
-    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; }
-    .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
-    .label { font-size: 11.5px; letter-spacing: 2.2px; fill: #f2b34a; }
-    .chip { font-size: 10.5px; letter-spacing: 1.6px; fill: #7fd18b; text-anchor: middle; }
-    .title { font-size: 34px; font-weight: 700; letter-spacing: -0.8px; fill: #e8edf4; }
-    .lead { font-size: 15px; fill: #c3ccd9; }
-    .lead2 { font-size: 15px; fill: #8a96a8; }
-    .stage { font-size: 13.5px; font-weight: 600; fill: #e8edf4; }
-    .tool { font-size: 10.5px; fill: #8a96a8; }
-    .big { font-size: 24px; font-weight: 700; letter-spacing: -0.4px; fill: #e8edf4; }
-    .cap { font-size: 10.5px; fill: #8a96a8; }
-    .box { fill: #0f1520; stroke: #2b3549; stroke-width: 1.2; }
-    .dot { fill: #6cc7e6; animation: dot 1.4s ease-in-out infinite; }
+    text { font-family: 'Times New Roman', Times, 'Liberation Serif', 'Nimbus Roman', serif; }
+    .label { font-size: 12.5px; font-weight: 700; letter-spacing: 2.6px; fill: #606060; }
+    .chip { font-size: 11.5px; font-weight: 700; letter-spacing: 1.8px; fill: #333333; text-anchor: middle; }
+    .title { font-size: 40px; font-weight: 700; letter-spacing: -0.4px; fill: #333333; }
+    .lead { font-size: 17.5px; fill: #333333; }
+    .lead2 { font-size: 17.5px; font-style: italic; fill: #666666; }
+    .stage { font-size: 15.5px; font-weight: 700; fill: #333333; }
+    .tool { font-size: 12.5px; font-style: italic; fill: #666666; }
+    .big { font-size: 28px; font-weight: 700; fill: #333333; }
+    .cap { font-size: 12.5px; fill: #666666; }
+    .box { fill: #f5f5f5; stroke: #d0d0d0; stroke-width: 1.2; }
+    .dot { fill: #606060; animation: dot 1.4s ease-in-out infinite; }
     .dot2 { animation-delay: 0.2s; } .dot3 { animation-delay: 0.4s; }
-    .live { fill: #7fd18b; animation: live 2s ease-in-out infinite; }
-    .bar { fill: #f2b34a; transform-origin: 40px 0; animation: shrink 6s cubic-bezier(.6,0,.2,1) infinite; }
+    .live { fill: #606060; animation: live 2s ease-in-out infinite; }
+    .bar { fill: #333333; transform-origin: 40px 0; animation: shrink 6s cubic-bezier(.6,0,.2,1) infinite; }
 
     @keyframes dot { 0%, 60%, 100% { opacity: 0.25; } 30% { opacity: 1; } }
     @keyframes live { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
@@ -41,47 +40,47 @@
     }
   </style>
 
-  <rect x="1" y="1" width="878" height="328" rx="16" fill="#0b0f17"/>
+  <rect x="1" y="1" width="878" height="328" rx="6" fill="#f0f0f0"/>
   <g clip-path="url(#card)"><circle cx="820" cy="0" r="260" fill="url(#glow)"/></g>
-  <rect x="1" y="1" width="878" height="328" rx="16" fill="none" stroke="#212a3a"/>
+  <rect x="1" y="1" width="878" height="328" rx="6" fill="none" stroke="#d0d0d0"/>
 
-  <text class="mono label" x="40" y="48">FINAL-YEAR PROJECT · SILVER AWARD, PIXEL 2026</text>
-  <rect x="722" y="32" width="118" height="24" rx="12" fill="#0f1a14" stroke="#28543a"/>
-  <circle class="live" cx="739" cy="44" r="3"/>
-  <text class="mono chip" x="790" y="48">LIVE DEMO</text>
+  <text class="label" x="40" y="48">FINAL-YEAR PROJECT · SILVER AWARD, PIXEL 2026</text>
+  <rect x="722" y="32" width="118" height="24" rx="5" fill="#e0e0e0" stroke="#c0c0c0"/>
+  <circle class="live" cx="737" cy="44" r="3"/>
+  <text class="chip" x="792" y="48.5">LIVE DEMO</text>
 
-  <text class="sans title" x="39" y="96">BahasaBot</text>
-  <text class="sans lead" x="40" y="126">Malay language learning platform for international students</text>
-  <text class="sans lead2" x="40" y="148">at Malaysian public universities.</text>
+  <text class="title" x="39" y="98">BahasaBot</text>
+  <text class="lead" x="40" y="127">Malay language learning platform for international students</text>
+  <text class="lead2" x="40" y="150">at Malaysian public universities.</text>
 
   <!-- features -->
-  <rect class="box" x="40" y="172" width="256" height="60" rx="10"/>
-  <rect class="box" x="312" y="172" width="256" height="60" rx="10"/>
-  <rect class="box" x="584" y="172" width="256" height="60" rx="10"/>
+  <rect class="box" x="40" y="172" width="256" height="60" rx="5"/>
+  <rect class="box" x="312" y="172" width="256" height="60" rx="5"/>
+  <rect class="box" x="584" y="172" width="256" height="60" rx="5"/>
 
-  <text class="sans stage" x="54" y="197">RAG chatbot</text>
-  <circle class="dot" cx="262" cy="192" r="2.6"/>
-  <circle class="dot dot2" cx="271" cy="192" r="2.6"/>
-  <circle class="dot dot3" cx="280" cy="192" r="2.6"/>
-  <text class="mono tool" x="54" y="216">LangChain · pgvector · SSE</text>
+  <text class="stage" x="54" y="198">RAG chatbot</text>
+  <circle class="dot" cx="262" cy="193" r="2.6"/>
+  <circle class="dot dot2" cx="271" cy="193" r="2.6"/>
+  <circle class="dot dot3" cx="280" cy="193" r="2.6"/>
+  <text class="tool" x="54" y="217">LangChain · pgvector · SSE</text>
 
-  <text class="sans stage" x="326" y="197">Course generator</text>
-  <text class="mono tool" x="326" y="216">concurrent Gemini calls, cached</text>
+  <text class="stage" x="326" y="198">Course generator</text>
+  <text class="tool" x="326" y="217">concurrent Gemini calls, cached</text>
 
-  <text class="sans stage" x="598" y="197">Adaptive quiz</text>
-  <text class="mono tool" x="598" y="216">BPS-1 to BPS-4, last 3 attempts</text>
+  <text class="stage" x="598" y="198">Adaptive quiz</text>
+  <text class="tool" x="598" y="217">BPS-1 to BPS-4, last 3 attempts</text>
 
   <!-- metrics -->
-  <path d="M40 254 H840" stroke="#1a2230"/>
-  <text class="sans big" x="40" y="287" style="fill:#f2b34a">78 s → 280 ms</text>
-  <text class="mono cap" x="40" y="306">repeat course generation</text>
-  <rect x="40" y="313" width="180" height="3" rx="1.5" fill="#1a2230"/>
-  <rect class="bar" x="40" y="313" width="180" height="3" rx="1.5"/>
+  <path d="M40 254 H840" stroke="#d0d0d0"/>
+  <text class="big" x="40" y="289">78 s → 280 ms</text>
+  <text class="cap" x="40" y="308">repeat course generation</text>
+  <rect x="40" y="315" width="180" height="3" rx="1.5" fill="#d9d9d9"/>
+  <rect class="bar" x="40" y="315" width="180" height="3" rx="1.5"/>
 
-  <text class="sans big" x="270" y="287">~$0.11</text>
-  <text class="mono cap" x="270" y="306">per active user a month (est.)</text>
-  <text class="sans big" x="480" y="287">4.3 / 5</text>
-  <text class="mono cap" x="480" y="306">in-app rating, 30 users</text>
-  <text class="sans big" x="670" y="287">46 / 46</text>
-  <text class="mono cap" x="670" y="306">functional tests passed</text>
+  <text class="big" x="285" y="289">~$0.11</text>
+  <text class="cap" x="285" y="308">est. cost per user a month</text>
+  <text class="big" x="480" y="289">4.3 / 5</text>
+  <text class="cap" x="480" y="308">in-app rating, 30 users</text>
+  <text class="big" x="670" y="289">46 / 46</text>
+  <text class="cap" x="670" y="308">functional tests passed</text>
 </svg>
