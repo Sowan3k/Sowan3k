@@ -19,13 +19,19 @@
   </picture>
 </p>
 
-I am a software engineer from Dhaka. I spent four years in Penang studying Software Engineering at Universiti Sains Malaysia, and for most of that time I also worked part-time at a hotel in George Town, running the front-desk records and looking after its website. I finished in August 2026 and moved back home the month after.
+Hey there, it's Noor Mohammad Sowan, and I'm a recent graduate of Universiti Sains Malaysia with a major in Software Engineering. My specialisation is AI automation at business operations, along with full-stack web development.
 
-My first engineering job was an internship at ECTrons in 2025, where I designed Virtual Zara. It was an n8n agent that connected GitLab, Google Workspace, Microsoft Graph, Telegram and OpenAI, so staff in HR, finance and project management could send it text, voice or a document and get a report or a PDF back. My final-year project, BahasaBot, teaches Malay to international students and won a Silver Award at the PIXEL 2026 showcase.
+I've spent the last four years in Penang, growing within a multicultural society while supporting my finances by working night shifts at the Museum Hote Penang . I also served the USM International Club as CPR (Content and Public Relations) for the entire 12 months, handling event management, crisis management and public relations.
 
-In November 2026 I was given five days for a take-home assessment and had no laptop with me, so I built DocIntel from my phone. It is the first card under Featured.
+My industrial placement was at ECTrons, a Penang-based embedded systems and industrial AI engineering company. It was there that I found my interest in AI automation and human-in-the-loop systems. I remain the first pioneer developer of Virtual Zara, a virtual stand-in for ECTrons management when the manager was on leave. It was the early concept behind the current ECTrons ACI, built back in 2025, before the term became public. I was also introduced to embedded systems, edge computing and product concept design.
 
-I am looking for AI engineering and automation work, and I am open to relocating or working remotely. Right now I am going back over Python and core computer science fundamentals and learning German. Away from the keyboard I take photographs and short videos (130 of them are on Pexels) and read about psychology, geopolitics and religion.
+Lately, I worked with the honourable Associate Professor Dr. Tan Tien Ping and developed BahasaBot, a learning platform specialised in teaching the Malay language. It uses Next.js, FastAPI, LangChain, Google Gemini and PostgreSQL with pgvector for retrieval-augmented generation (RAG). It solved two problems. Generated lessons were drifting into Indonesian Malay, which I fixed by grounding the tutor on a curated Malaysian Malay corpus. Repeat courses were slow and costly, so I built a template-and-clone layer that cut them from about 78 seconds and 21,300 tokens to about 280 milliseconds and no tokens. The platform earned me an A- in my FYP course, while also winning the Silver Award at the university's Final Year Project showcase competition, known as USM PIXEL26.
+
+Apart from all of these, I've built DocIntel, an invoice processing system completed in five days, where the AI only reads the document and Python checks every figure. I've also built Vindeshi Express, a study-abroad route platform for Bangladeshi students which is now in testing, and My Bibi, a self-hosted chat app that runs local AI models so no data leaves the user's device.
+
+I've remained humble to the universe throughout my journey, and now I expect the universe to give me opportunities to grow further.
+
+Thank you. Please contact me at nurmohammadsowan119@gmail.com for any queries!
 
 <p>
   <picture>
